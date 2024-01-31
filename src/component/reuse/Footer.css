@@ -1,0 +1,130 @@
+/*================== FOOTER - STARTS ==================*/
+
+footer {
+    /* margin-top: 40px; */
+    background: linear-gradient(45deg, #CB4BE8, #4970E5);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 60px;
+    /* align-items: center; */
+    padding: 40px 0;
+}
+
+footer .About {
+    width: 310px;
+    height: auto;
+    /* border: 2px solid black; */
+}
+
+footer .About h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+footer .About p {
+    color: #fff;
+    font-size: 14px;
+}
+
+footer .About .Social-media {
+    /* border: 2px solid white; */
+    margin: 30px 0;
+    width: 100%;
+}
+
+footer .About .Social-media a {
+    margin-right: 20px;
+}
+
+footer .About .Social-media a img {
+    width: 30px;
+    height: 30px;
+    /* border-radius: 50%; */
+}
+
+footer .Contact {
+    /* border: 2px solid black; */
+    width: 310px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .Contact h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+footer .Contact div {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer .Contact div span {
+    margin-right: 14px;
+    color: #fff;
+}
+
+footer .Contact .input-area {
+    margin-top: 20px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+footer .Contact .input-area input {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 8px;
+}
+
+footer .Contact .input-area textarea {
+    border-radius: 8px;
+    margin-top: 20px;
+    min-height: 100px;
+    resize: none;
+    overflow-x: auto;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+footer .Contact .input-area input:focus,
+textarea:focus {
+    box-shadow: inset 0 0 2px gray;
+}
+
+footer .Contact button {
+    align-self: flex-end;
+    font-size: 20px;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+footer .Contact button:active {
+    transform: scale(1.04);
+}
+
+.Copyright {
+    margin: auto;
+    width: 100vw;
+    height: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.548);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    gap: 10px;
+}
+
+/*=================== FOOTER - ENDS ===================*/
