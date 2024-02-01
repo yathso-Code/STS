@@ -1,25 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom';
 import './Navbar.css'
-import { NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
- 
-    // let [bodyStyle, setBodyStyle] = useState(true);
+  let [newClass, setNewClass]  = useState('');
 
-  return (
-    <nav>
+ window.addEventListener('scroll', ()=> {
+  let Scrolled = window.scrollY;
+  // console.log(Scrolled)
+  if(Scrolled >= 320){
+    setNewClass('Fixed-Navbar');
+}else {
+    setNewClass('');
+}
+ })
+
+    return (
+      <nav className={newClass}>
         <input type="checkbox" id="chk-box" />
         <div className="logo">STS Education India</div>
         <div className="links">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/course">Courses</NavLink>
-            <NavLink to="/onlineLearn" style={{color: '#CF1020'}}>Online Learning</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/course">Courses</NavLink>
+        <NavLink to="/onlineLearn">Online Learning</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
         </div>
-        <label htmlFor="chk-box"><i className="fa-solid fa-bars"></i></label>
-    </nav>
-  )
-}
+        <label htmlFor="chk-box"><FontAwesomeIcon icon={faBars} /></label>
+      </nav>
+    )
+  }
 
 export default Navbar

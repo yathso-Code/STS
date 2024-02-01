@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 import Footer from './component/reuse/Footer';
 import Navbar from './component/reuse/Navbar';
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom";
 import Home from './component/Home';
 import About from './component/About';
 import Contact from './component/Contact';
@@ -16,11 +16,11 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={ <Home/> } />
-        <Route path="/about" element={ <About/> } />
-        <Route path="/course" element={ <Course/> } />
-        <Route path="/contact" element={ <Contact/> } />
-        <Route path="/onlineLearn" element={ <OnlineLearn/> } />
+        <Route path="/" element={ <Home /> } />
+        <Route path="/about" element={ <About /> } />
+        <Route path="/course" element={ <Course /> } />
+        <Route path="/contact" element={ <Contact /> } />
+        <Route path="/onlineLearn" element={ <OnlineLearn /> } />
       </Routes>
       <Footer />
     </>
