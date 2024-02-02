@@ -1,0 +1,1334 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/2484218.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ================================================================================
+                           HERO BBANNER
+===================================================================================*/
+.hero_banner {
+    /* border: 2px solid red; */
+    height: calc(100vh - 80px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_banner .first_text {
+    width: 500px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_banner .first_text .hero {
+    /* border: 1px solid white; */
+    color: #fff;
+    font-weight: 600;
+    font-size: 3vh;
+}
+
+.hero_banner .first_text .i {
+    color: #fff;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8vh;
+    font-weight: bolder;
+    margin: 5vh 0;
+}
+
+/* ====================================================================================
+                               PACKAGE
+======================================================================================*/
+.package {
+    /* border: 1px solid red; */
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.package .package_detail {
+    width: 35vw;
+    /* border: 2px solid green; */
+    /* margin-left: 12vw; */
+}
+
+.package_detail h5 {
+    color: rgb(83, 29, 246);
+    margin-top: 15vh;
+    font-weight: 900;
+}
+
+.package_detail h3 {
+    font-size: 2vw;
+    margin-top: 2vh;
+    font-weight: 900;
+}
+
+.package_detail p {
+    line-height: 155%;
+    margin-top: 3vh;
+    font-size: 2.5vh;
+    color: rgb(129, 124, 124);
+}
+
+.package_detail .image {
+    width: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+/* ====================================================================================
+                                  PACKAGE PRICE
+=======================================================================================*/
+.package_price {
+    /* border: 2px solid yellowgreen; */
+    width: 35vw;
+    height: auto;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.package_price i {
+    font-size: 6vh;
+}
+
+/* =====================================================================================
+                              FIRST PACKAGE
+======================================================================================*/
+.package_price .first_package {
+    /* border: 2px solid yellow; */
+    width: 45%;
+    height: 32%;
+    line-height: 5vh;
+    padding: 25px;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 29px 29px 59px #e8e8e8,
+        -29px -29px 59px #ffffff;
+}
+
+.fa-credit-card {
+    color: blue;
+    font-size: 24px;
+}
+
+.first_package p {
+    color: rgb(129, 124, 124);
+}
+
+.first_package button {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(64, 42, 213);
+    color: white;
+    padding: 7px;
+}
+
+/* =========================================================================================
+                              SECOND PACKAGE
+===========================================================================================*/
+.package_price .second_package {
+    /* border: 2px solid rgb(225, 17, 180); */
+    width: 45%;
+    height: 32%;
+    line-height: 5vh;
+    padding: 25px;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 29px 29px 59px #e8e8e8,
+        -29px -29px 59px #ffffff;
+}
+
+.fa-store {
+    color: rgb(245, 71, 100);
+    font-size: 24px;
+}
+
+.second_package p {
+    color: rgb(129, 124, 124);
+}
+
+.second_package button {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(64, 42, 213);
+    color: white;
+    padding: 7px;
+}
+
+/* ============================================================================================
+                                THIRD PACKAGE
+==============================================================================================*/
+.package_price .third_package {
+    /* border: 2px solid rgb(15, 157, 251); */
+    width: 45%;
+    height: 32%;
+    line-height: 5vh;
+    padding: 25px;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 29px 29px 59px #e8e8e8,
+        -29px -29px 59px #ffffff;
+}
+
+.fa-cash-register {
+    color: rgb(228, 134, 19);
+    font-size: 24px;
+}
+
+.third_package p {
+    color: rgb(129, 124, 124);
+}
+
+.third_package button {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(64, 42, 213);
+    color: white;
+    padding: 7px;
+}
+
+
+/* ==============================================================================
+                          LINEAR GRADIENT
+=================================================================================*/
+.linear_gradient {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, .3) 0%, rgba(253, 45, 234, .3) 100%);
+    width: 100%;
+    height: 100%;
+    padding: 6% 19%;
+}
+
+/* ==============================================================================
+                           SECOND PACKAGE COURSE DETAILS
+=================================================================================*/
+.linear_gradient .second_course_table {
+    background-color: rgb(221, 64, 166);
+    border: 1px solid rgb(123, 253, 2);
+    width: 100%;
+    height: 10vh;
+    padding-top: 1.4vw;
+    padding-left: 2%;
+}
+
+.linear_gradient .second_course_table:hover {
+    background-color: rgb(140, 27, 232);
+}
+
+.linear_gradient .second_course_table span:nth-child(1) {
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
+.linear_gradient .second_course_table span:nth-child(2) {
+    margin-left: 43%;
+    color: white;
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
+/* =====================================================================================
+                   SECOND PACKAGE TABLE
+========================================================================================*/
+.second_package_table {
+    color: white;
+    width: 100%;
+    margin-top: 2%;
+    line-height: 3vw;
+}
+
+table tr td {
+    border-bottom: 1pt solid rgb(255, 255, 255);
+    text-wrap: wrap;
+}
+
+/* =====================================================================================
+                   THIRD PACKAGE COURSE DETAILS
+========================================================================================*/
+.linear_gradient .third_course_table {
+    background-color: rgb(221, 64, 166);
+    border: 1px solid rgb(123, 253, 2);
+    width: 100%;
+    height: 10vh;
+    margin-top: 10%;
+    padding-top: 1.4vw;
+    padding-left: 2%;
+}
+
+.linear_gradient .third_course_table:hover {
+    background-color: rgb(140, 27, 232);
+}
+
+.linear_gradient .third_course_table span:nth-child(1) {
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
+.linear_gradient .third_course_table span:nth-child(2) {
+    margin-left: 43%;
+    color: white;
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
+.third_package_table {
+    color: white;
+    width: 100%;
+    margin-top: 2%;
+    line-height: 3vw;
+}
+
+/* =====================================================================================
+                   FOURTH PACKAGE COURSE DETAILS
+========================================================================================*/
+.linear_gradient .fourth_course_table {
+    background-color: rgb(221, 64, 166);
+    border: 1px solid rgb(123, 253, 2);
+    width: 100%;
+    height: 10vh;
+    margin-top: 10%;
+    padding-top: 1.4vw;
+    padding-left: 2%;
+}
+
+.linear_gradient .fourth_course_table:hover {
+    background-color: rgb(140, 27, 232);
+}
+
+.linear_gradient .fourth_course_table span:nth-child(1) {
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
+.linear_gradient .fourth_course_table span:nth-child(2) {
+    margin-left: 43%;
+    color: white;
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
+.fourth_package_table {
+    color: white;
+    width: 100%;
+    margin-top: 2%;
+    line-height: 3vw;
+}
+
+.fourth_package_table {
+    color: white;
+    width: 100%;
+    margin-top: 2%;
+    line-height: 3vw;
+}
+
+/* =========================================================================================
+                               POSITION BOXES
+===========================================================================================*/
+.position_hidden_box {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+.image_box1 {
+    border-radius: 0px;
+    background: #ffffff;
+    box-shadow: 20px 20px 100px #b3b3b3,
+        -20px -20px 100px #ffffff;
+    width: 22%;
+    height: 60%;
+    position: absolute;
+    left: 17%;
+    top: 10%;
+}
+
+.image_box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 3%;
+}
+
+.image_box2 {
+    border-radius: 0px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 5px 5px 10px #666666,
+        -5px -5px #ffffff;
+    width: 19%;
+    height: 47%;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+.image_box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 3%;
+}
+
+/* =========================================================================================
+                                POSITION HIDDEN BOXES TEXT
+===========================================================================================*/
+.position_hidden_box_text {
+    /* border: 2px solid green; */
+    width: 43%;
+    height: auto;
+    position: absolute;
+    left: 57%;
+    top: 15%;
+    list-style: inside;
+}
+
+.position_hidden_box_text p {
+    color: rgb(1, 119, 253);
+    font-weight: bold;
+    font-size: .8vw;
+}
+
+.position_hidden_box_text h2 {
+    font-size: 2.9vw;
+    margin-top: 1.5vh;
+}
+
+.position_hidden_box_text ul {
+    margin-top: 4vh;
+    line-height: 1.9vw;
+    font-weight: bold;
+    color: rgb(129, 124, 124);
+}
+
+.position_hidden_box_text button {
+    border: 4px solid rgb(76, 179, 220);
+    border-radius: 5px 5px;
+    background-color: rgb(108, 108, 222);
+    padding: 2vh;
+    margin-top: 2vh;
+    color: white;
+    width: 40%;
+    font-size: 2.1vh;
+    font-weight: bolder;
+}
+
+
+/* ============================================================================
+                        PICK YOUR COURSE
+===============================================================================*/
+.heading_box {
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid red; */
+    width: 100vw;
+}
+
+.heading_box .heading1 {
+    color: rgb(74, 74, 209);
+    font-size: 1em;
+    font-weight: 600;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.heading_box .heading2 {
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.content_box {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    padding: 0em 3em 4em 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*===================================================================================
+                             CONTENT BOX 1
+=====================================================================================*/
+.content_box .flex_box1 {
+    background-image: url("https://img.freepik.com/free-photo/collage-finance-banner-concept_23-2150608820.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705881600&semt=ais");
+    width: 350px;
+    height: 510px;
+    display: block;
+    border-radius: 0px;
+    box-shadow: 5px 5px 29px #898989,
+        -5px -5px 29px #ffffff;
+}
+
+.flex_box1 .content {
+    background-color: #ffffff;
+    height: 280px;
+    margin-top: 230px;
+    line-height: 1.5em;
+}
+
+.flex_box1 p:nth-child(1) {
+    background-color: rgb(74, 74, 209);
+    color: white;
+    width: 160px;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 1.3em;
+}
+
+.flex_box1 p:nth-child(2) {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+
+.flex_box1 p:nth-child(3) {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(129, 124, 124);
+    font-size: .9em;
+}
+
+/*===================================================================================
+                             CONTENT BOX 2
+=====================================================================================*/
+.content_box .flex_box2 {
+    background-image: url("https://img.freepik.com/free-photo/collage-finance-banner-concept_23-2150608820.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705881600&semt=ais");
+    width: 350px;
+    height: 510px;
+    box-shadow: 5px 5px 29px #898989,
+        -5px -5px 29px #ffffff;
+}
+
+.flex_box2 .content {
+    background-color: #ffffff;
+    height: 320px;
+    margin-top: 230px;
+    line-height: 1.5em;
+}
+
+.flex_box2 p:nth-child(1) {
+    background-color: rgb(74, 74, 209);
+    color: white;
+    width: 160px;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 1.3em;
+}
+
+.flex_box2 p:nth-child(2) {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.flex_box2 p:nth-child(3) {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(129, 124, 124);
+    font-size: .9em;
+    line-height: 1.5em;
+}
+
+/*===================================================================================
+                             CONTENT BOX 3
+=====================================================================================*/
+.content_box .flex_box3 {
+    background-image: url("https://img.freepik.com/free-photo/collage-finance-banner-concept_23-2150608820.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705881600&semt=ais");
+    width: 350px;
+    height: 510px;
+    box-shadow: 5px 5px 29px #898989,
+        -5px -5px 29px #ffffff;
+}
+
+.flex_box3 .content {
+    background-color: #ffffff;
+    height: 280px;
+    margin-top: 230px;
+    line-height: 1.5em;
+}
+
+.flex_box3 p:nth-child(1) {
+    background-color: rgb(74, 74, 209);
+    color: white;
+    width: 160px;
+    padding: 5px;
+    margin-left: 15px;
+    font-size: 1.3em;
+}
+
+.flex_box3 p:nth-child(2) {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+
+.flex_box3 p:nth-child(3) {
+    margin-top: 20px;
+    margin-left: 15px;
+    color: rgb(129, 124, 124);
+    font-size: .9em;
+}
+
+/*=============== MEDIA - QUERY ===============*/
+
+/* =================================================================
+                    small screen, laptops
+====================================================================*/
+@media only screen and (max-width: 1025px) {
+    .first_text {
+        margin-top: 110vw;
+    }
+
+    .hero_text1 {
+        font-size: 2.3vh;
+    }
+
+    .hero_text2 {
+        font-size: 2.3vh;
+    }
+
+    .last_text {
+        font-size: 7vw;
+    }
+
+    /* ============================================================
+                             PACKAGE 
+    ================================================================ */
+    .package {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 100vh;
+    }
+
+    .package .package_detail {
+        margin-left: 4vh;
+    }
+
+    .package_detail h5 {
+        font-size: 1.2vh;
+    }
+
+    .package_detail h3 {
+        font-size: 2vh;
+    }
+
+    .package_detail p {
+        font-size: 1.5vh;
+        width: 30vh;
+    }
+
+    .package_detail img {
+        width: 22vw;
+        height: 19vh;
+    }
+
+    /* ================================================================
+                         PACKAGE PRICE
+    ===================================================================*/
+    .package_price {
+        width: 100%;
+        font-size: 1.2vh;
+        margin-top: 12vh;
+    }
+
+    .package_price .first_package {
+        width: 45%;
+        height: 25%;
+        line-height: 3vh;
+    }
+
+    .package_price .second_package {
+        width: 45%;
+        height: 25%;
+        line-height: 3vh;
+    }
+
+    .package_price .third_package {
+        width: 45%;
+        height: 25%;
+        line-height: 3vh;
+        margin-top: -29vh;
+    }
+
+
+    /* =====================================================================================
+                        LINEAR GRADIENT
+=======================================================================================*/
+    .linear_gradient {
+        padding: 7% 5%;
+    }
+
+    /* ==============================================================================
+                           SECOND PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .second_course_table {
+        height: 6vh;
+        padding-top: 2.5vw;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .second_course_table span:nth-child(1) {
+        font-size: 2.4vw;
+    }
+
+    .linear_gradient .second_course_table span:nth-child(2) {
+        font-size: 2.4vw;
+    }
+
+
+    /* =====================================================================================
+                   SECOND PACKAGE TABLE
+========================================================================================*/
+    .second_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 7vw;
+        font-size: 2VW;
+    }
+
+    /* ==============================================================================
+                           THIRD PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .third_course_table {
+        height: 6vh;
+        padding-top: 2.5vw;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .third_course_table span:nth-child(1) {
+        font-size: 2.4vw;
+    }
+
+    .linear_gradient .third_course_table span:nth-child(2) {
+        font-size: 2.4vw;
+    }
+
+    /* =====================================================================================
+                   THIRD PACKAGE TABLE
+========================================================================================*/
+    .third_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 5vw;
+        font-size: 2VW;
+    }
+
+    /* ==============================================================================
+                           FOURTH PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .fourth_course_table {
+        height: 6vh;
+        padding-top: 2.5vw;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .fourth_course_table span:nth-child(1) {
+        font-size: 2.4vw;
+    }
+
+    .linear_gradient .fourth_course_table span:nth-child(2) {
+        font-size: 2.4vw;
+    }
+
+    /* =====================================================================================
+                   FOURTH PACKAGE TABLE
+========================================================================================*/
+    .fourth_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 5vw;
+        font-size: 2VW;
+    }
+
+    /* =========================================================================================
+                               POSITION BOXES
+===========================================================================================*/
+    .image_box1 {
+        width: 32%;
+        height: 40%;
+        position: absolute;
+        left: 3%;
+        top: 10%;
+    }
+
+    .image_box2 {
+        width: 32%;
+        height: 30%;
+        position: absolute;
+        left: 19%;
+        top: 30%;
+    }
+
+    /* =========================================================================================
+                                POSITION HIDDEN BOXES TEXT
+===========================================================================================*/
+    .position_hidden_box_text p {
+        font-size: 1.1vw;
+        display: block;
+    }
+
+    .position_hidden_box_text h2 {
+        font-size: 3vw;
+    }
+
+    .position_hidden_box_text ul {
+        margin-top: 2.5vh;
+        line-height: 2.9vw;
+        font-size: 1.3vh;
+    }
+
+    .position_hidden_box_text button {
+        padding: 1vh;
+        width: 50%;
+        font-size: 1.4vh;
+    }
+
+    /* ============================================================================
+                        PICK YOUR COURSE
+===============================================================================*/
+    .heading_box .heading1 {
+        font-size: 1.1em;
+    }
+
+    .heading_box .heading2 {
+        font-size: 2.5em;
+    }
+
+    .content_box {
+        /* height: 50vh; */
+    }
+
+    .content_box .flex_box1 {
+        width: 250px;
+        height: 521px;
+
+    }
+
+    .flex_box1 .content {
+        height: 320px;
+    }
+
+    .content_box .flex_box2 {
+        width: 250px;
+        height: 511px;
+    }
+
+    .flex_box2 .content {
+        height: 350px;
+    }
+
+    .content_box .flex_box3 {
+        width: 250px;
+        height: 511px;
+    }
+
+    .flex_box3 .content {
+        height: 320px;
+    }
+
+    .heading_box {
+        text-align: center;
+    }
+
+    .content_box .flex_box1 {
+        margin: 10% 0% 0% 10%;
+        width: 450px;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .content_box .flex_box2 {
+        margin: 10% 0% 2% 10%;
+        width: 450px;
+        height: 100%;
+    }
+
+    .content_box .flex_box3 {
+        margin: 10% 0% 2% 10%;
+        width: 450px;
+        height: 100%;
+    }
+}
+
+/* ==================================================================
+                        tab screen size
+=====================================================================*/
+@media only screen and (max-width: 768px) {
+
+    /* =======================
+                              HERO BANNER ===========================*/
+    .first_text {
+        margin-top: 85vw;
+    }
+
+    .hero_text1 {
+        font-size: 2.3vh;
+    }
+
+    .hero_text2 {
+        font-size: 2.3vh;
+    }
+
+    .last_text {
+        font-size: 7vw;
+    }
+
+    /* ============================================================
+                             PACKAGE 
+    ================================================================ */
+    .package {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 100vh;
+    }
+
+    .package_detail h5 {
+        font-size: 1.8vh;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .package_detail h3 {
+        font-size: 2.5vh;
+    }
+
+    .package_detail p {
+        font-size: 2vh;
+        width: 39vw;
+    }
+
+    /* ================================================================
+                         PACKAGE PRICE
+    ===================================================================*/
+    .package_price {
+        display: block;
+        margin-top: 12vh;
+    }
+
+    .package_price .first_package {
+        width: 105%;
+        font-size: 2vh;
+        height: 25%;
+        padding: 20px;
+    }
+
+    .package_price .second_package {
+        width: 105%;
+        font-size: 2vh;
+        height: 25%;
+        padding: 20px;
+    }
+
+    .package_price .third_package {
+        width: 105%;
+        font-size: 2vh;
+        height: 25%;
+        padding: 20px;
+        margin-top: 1vh;
+    }
+
+    /* ==============================================================================
+                           SECOND PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .second_course_table {
+        height: 8vh;
+        padding-top: 3.7vw;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .second_course_table span:nth-child(1) {
+        font-size: 3vw;
+    }
+
+    .linear_gradient .second_course_table span:nth-child(2) {
+        font-size: 3vw;
+        margin-left: 30%;
+    }
+
+    /* =====================================================================================
+                   SECOND PACKAGE TABLE
+========================================================================================*/
+    .second_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 9vw;
+        font-size: 2.5VW;
+    }
+
+    /* ==============================================================================
+                           THIRD PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .third_course_table {
+        height: 8vh;
+        padding-top: 3.7vw;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .third_course_table span:nth-child(1) {
+        font-size: 3vw;
+    }
+
+    .linear_gradient .third_course_table span:nth-child(2) {
+        font-size: 3vw;
+        margin-left: 30%;
+    }
+
+    /* =====================================================================================
+                   THIRD PACKAGE TABLE
+========================================================================================*/
+    .third_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 7vw;
+        font-size: 2.5VW;
+    }
+
+    /* ==============================================================================
+                           FOURTHPACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .fourth_course_table {
+        height: 8vh;
+        padding-top: 3.7vw;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .fourth_course_table span:nth-child(1) {
+        font-size: 3vw;
+    }
+
+    .linear_gradient .fourth_course_table span:nth-child(2) {
+        font-size: 3vw;
+        margin-left: 30%;
+    }
+
+    /* =====================================================================================
+                   FOURTH PACKAGE TABLE
+========================================================================================*/
+    .fourth_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 7vw;
+        font-size: 2.5VW;
+    }
+
+    /* =========================================================================================
+                               POSITION BOXES
+===========================================================================================*/
+    .image_box1 {
+        width: 29%;
+        height: 47%;
+    }
+
+    .image_box2 {
+        width: 27%;
+        height: 37%;
+        position: absolute;
+        left: 19%;
+        top: 30%;
+    }
+
+    /* =========================================================================================
+                                POSITION HIDDEN BOXES TEXT
+===========================================================================================*/
+    .position_hidden_box_text p {
+        font-size: 1.7vw;
+    }
+
+    .position_hidden_box_text h2 {
+        font-size: 3.9vw;
+    }
+
+    .position_hidden_box_text ul {
+        line-height: 3.8vw;
+        font-size: 1.3vh;
+    }
+
+    .position_hidden_box_text button {
+        padding: 1vh;
+        width: 55%;
+        font-size: 1.5vh;
+    }
+
+    .content_box .flex_box1 {
+        margin-bottom: 15%;
+        width: 350px;
+        height: 100%;
+    }
+
+    .content_box .flex_box2 {
+        margin-bottom: 5%;
+        width: 350px;
+        height: 100%;
+    }
+
+    .content_box .flex_box3 {
+        margin-bottom: 5%;
+        width: 350px;
+        height: 100%;
+    }
+}
+
+/* ==================================================================
+                        mobile screeen size
+====================================================================*/
+@media only screen and (max-width: 480px) {
+
+    /* ==============================================================
+                              HERO BANNER
+    ==================================================================*/
+    .first_text {
+        margin-top: 110vw;
+    }
+
+    .hero_text1 {
+        font-size: 1.8vh;
+    }
+
+    .hero_text2 {
+        font-size: 1.8vh;
+    }
+
+    .last_text {
+        font-size: 8vw;
+        display: block;
+        margin-left: 23vw;
+    }
+
+    .last_text span {
+        margin-left: 8vw;
+        margin-bottom: 15vh;
+    }
+
+    /* ================================================================
+                                  PACKAGE
+        =================================================================== */
+    .linear_gradient {
+        width: 100%;
+        /* height: 100vh; */
+    }
+
+    .package {
+        display: inline-table;
+        /* border: 2px solid red; */
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .package_detail {
+        /* border: 2px solid blue; */
+        width: 26vw;
+    }
+
+    .package_detail h5 {
+        font-size: 1.5vh;
+        margin-top: 5vh;
+        width: 50vw;
+    }
+
+    .package_detail h3 {
+        font-size: 6.6vw;
+        font-weight: bold;
+        line-height: 8vw;
+        width: 91vw;
+    }
+
+    .package_detail p {
+        width: 79vw;
+        font-size: 1.5vh;
+    }
+
+    .package img {
+        width: 48vw;
+        height: 16vh;
+        display: flex;
+    }
+
+    /* ==================================================================
+                     PACKAGE PRICE
+===================================================================== */
+    .package_price {
+        display: block;
+        width: 100vw;
+        margin-left: 1vh;
+    }
+
+    .package_price .first_package {
+        width: 100vw;
+        line-height: 4.5vh;
+    }
+
+    .package_price .second_package {
+        width: 100vw;
+        line-height: 4.5vh;
+    }
+
+    .package_price .third_package {
+        width: 100vw;
+        margin-top: 1vh;
+        line-height: 4.5vh;
+    }
+
+    /* ==============================================================================
+                           SECOND PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .second_course_table {
+        height: 9vh;
+        padding-top: 5vw;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .second_course_table span:nth-child(1) {
+        font-size: 3.9vw;
+    }
+
+    .linear_gradient .second_course_table span:nth-child(2) {
+        font-size: 3.9vw;
+        margin-left: 10%;
+    }
+
+    /* =====================================================================================
+                   SECOND PACKAGE TABLE
+========================================================================================*/
+    .second_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 9vw;
+        font-size: 3.6VW;
+    }
+
+    /* ==============================================================================
+                           THIRD PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .third_course_table {
+        height: 9vh;
+        padding-top: 5vw;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .third_course_table span:nth-child(1) {
+        font-size: 3.9vw;
+    }
+
+    .linear_gradient .third_course_table span:nth-child(2) {
+        font-size: 3.9vw;
+        margin-left: 10%;
+    }
+
+    /* =====================================================================================
+                   THIRD PACKAGE TABLE
+========================================================================================*/
+    .third_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 9vw;
+        font-size: 3.6VW;
+    }
+
+    /* ==============================================================================
+                           FOURTH PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .fourth_course_table {
+        height: 9vh;
+        padding-top: 5vw;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .fourth_course_table span:nth-child(1) {
+        font-size: 3.9vw;
+    }
+
+    .linear_gradient .fourth_course_table span:nth-child(2) {
+        font-size: 3.9vw;
+        margin-left: 10%;
+    }
+
+    /* =====================================================================================
+                   FOURTH PACKAGE TABLE
+========================================================================================*/
+    .third_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 9vw;
+        font-size: 3.6VW;
+    }
+
+    /* =========================================================================================
+                               POSITION BOXES
+===========================================================================================*/
+    .image_box1 {
+        display: block;
+        width: 60%;
+        height: 40%;
+        position: absolute;
+        left: 3%;
+        top: 5%;
+    }
+
+    .image_box2 {
+        width: 59%;
+        height: 30%;
+        position: absolute;
+        left: 38%;
+        top: 24%;
+    }
+
+    /* =========================================================================================
+                                POSITION HIDDEN BOXES TEXT
+===========================================================================================*/
+    .position_hidden_box_text {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 7%;
+        top: 60%;
+        list-style: inside;
+    }
+
+    .position_hidden_box_text p {
+        font-size: 3vw;
+    }
+
+    .position_hidden_box_text h2 {
+        font-size: 5.7vw;
+    }
+
+    .position_hidden_box_text ul {
+        line-height: 5.8vw;
+        font-weight: bold;
+    }
+}
