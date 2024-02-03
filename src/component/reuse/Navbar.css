@@ -116,7 +116,7 @@ nav label {
         /* display: none; */
         position: absolute;
         top: 80px;
-        left: 100%;
+        left: -100%;
         background-color: black;
         width: 100vw;
         height: 50vh;
@@ -132,7 +132,7 @@ nav label {
     }
 
     #chk-box:checked ~ .links {
-        left: 0px;
+        left: 0;
     }
    
 }

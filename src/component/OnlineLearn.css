@@ -19,11 +19,17 @@ body {
 }
 
 .hero_banner .first_text {
-    width: 500px;
+    /* width: 500px; */
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero_banner .first_text .i {
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 .hero_banner .first_text .hero {
@@ -602,8 +608,8 @@ table tr td {
                     small screen, laptops
 ====================================================================*/
 @media only screen and (max-width: 1025px) {
-    .first_text {
-        margin-top: 110vw;
+    .hero_banner .first_text {
+        justify-content: space-evenly;
     }
 
     .hero_text1 {
