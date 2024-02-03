@@ -1,0 +1,85 @@
+.SlideToContacts {
+ width: 100vw;
+ background-color: #FFFFFF;
+ padding: 100px 0;
+ justify-content: space-evenly;
+}
+
+.SlideToContacts .box {
+ position: relative;
+ /* border: 2px solid red; */
+ width: 580px;
+ height: 400px;
+}
+.SlideToContacts .box .image:first-child {
+ width: 70%;
+ height: 70%;
+ position: absolute;
+ left: 0;
+ top: 0;
+ z-index: 0;
+ padding: 10px;
+ background-color: #FFFFFF;
+ box-shadow: 0 0 1px gray;
+}
+
+.SlideToContacts .box .image:last-child {
+ /* border: 2px solid blue; */
+ width: 60%;
+ height: 60%;
+ position: absolute;
+ right: 0;
+ top: 150px;
+ z-index: 1;
+ padding: 10px;
+ background-color: #FFFFFF;
+ box-shadow: 0 0 1px gray;
+}
+
+.SlideToContacts .box .image img {
+ border: 1.5px solid rgba(128, 128, 128, 0.2);
+ width: 100%;
+ height: 100%;
+}
+
+.SlideToContacts .info {
+ /* border: 2px solid red; */
+ width: 420px;
+ height: auto;
+ font-weight: bold;
+ padding: 20px 0;
+ align-items: flex-start;
+}
+
+.SlideToContacts .info p:first-child {
+ color: #4986FC;
+ font-size: 14px;
+ letter-spacing: 0.5px;
+}
+
+.SlideToContacts .info p:nth-child(2) {
+ font-size: 30px;
+ margin: 20px 0;
+}
+.SlideToContacts .info p:nth-child(3) {
+ font-size: 16px;
+ font-weight: bold;
+ color: gray;
+ font-weight: 100;
+}
+
+.SlideToContacts .info button {
+ padding: 6px 10px;
+ background-color: #4986FC;
+ color: white;
+ /* font-weight: bold; */
+ font-size: 15px;
+ border: none;
+ border-radius: 6px;
+ margin: 20px 0;
+ cursor: pointer;
+}
+
+.SlideToContacts .info button:active {
+ transform: scale(1.05);
+}

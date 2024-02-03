@@ -2,6 +2,9 @@ import React from 'react'
 import './OnlineLearn.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight, faCreditCard, faStore, faCashRegister } from '@fortawesome/free-solid-svg-icons';
+import Lern from './reuse/Lern';
+import img1 from './img/clint-patterson-dYEuFB8KQJk-unsplash.jpg'
+import img2 from './img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg'
 
 const OnlineLearn = () => {
 
@@ -346,35 +349,7 @@ const OnlineLearn = () => {
       {/*=================== POSITION BOXESS ===================*/}
 
 
-      <div className="position_hidden_box">
-        <div className="image_box1">
-          <img src="https://cdn.create.vista.com/api/media/small/379202590/stock-photo-cropped-view-woman-using-laptop-cup-tea-beige-surface" alt='' />
-        </div>
-        <div className="image_box2">
-          <img src="https://images.pexels.com/photos/1326947/pexels-photo-1326947.jpeg?cs=srgb&dl=pexels-george-dolgikh-1326947.jpg&fm=jpg" alt='' />
-        </div>
-
-
-        {/*====================== POSITION HIDDEN BOXES ======================*/}
-
-        <div className="position_hidden_box_text">
-          <p>ONLINE LEARNING PROGRAMME ENHANCED YOUR SKILLS</p>
-          <h2>In this course we provide students</h2>
-          <ul>
-            <li>Education Panel</li>
-            <li>Vedio Lecture Classes (Visual learning App)</li>
-            <li>Live Class</li>
-            <li>Study Metrials</li>
-            <li>Books</li>
-            <li>Practic Test</li>
-            <li>Final Exam</li>
-            <li>Certificate</li>
-            <li>Business Panal / Job panal</li>
-          </ul>
-          <button>Get in touch with us</button>
-        </div>
-      </div>
-
+        <Lern GetInTouch={img1} GetInTouch2={img2} />
 
       {/*================== PICK YOUR COURSE ==================*/}
 

@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 import './Home.css'
 import office from './img/Home-img/office.png'
 import courses from './img/Home-img/courses.jpg'
+import Lern from './reuse/Lern'
 import GetInTouch from './img/Home-img/GetInTouch.jpg'
 import GetInTouch2 from './img/Home-img/GetInTouch2.jpg'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faUserGraduate, faPersonChalkboard, faClock } from '@fortawesome/free-solid-svg-icons'
 import CountUp from 'react-countup'
@@ -199,26 +201,7 @@ const Home = () => {
                 
                 {/*============ Slide - Contact - Starts ============*/}
                 
-                <div className="SlideToContacts flex">
-                <div className="box">
-                <div className="image">
-                <img src={GetInTouch} alt='Getin' />
-                </div>
-                <div className="image">
-                <img src={GetInTouch2} alt='Getin' />
-                </div>
-                </div>
-                <div className="info flex-coloumn">
-                <p>ENHANCE YOUR SKILLS</p>
-                <p>Learn Anything You Want Today</p>
-                <p>We provide most of the Computer Education in minimum cost
-                and maximum quality. We conduct our classes offline and online
-                too with live classes and study material will be given by our team
-                for extra care.</p>
-                    <button>Get in touch with us</button>
-                </div>
-                </div>
-                
+                   <Lern GetInTouch={GetInTouch} GetInTouch2={GetInTouch2}/>
                 {/*============= Get - In - Touch - Ends =============*/}
                 
                 {/*=============== Enroll - Starts ===============*/}
