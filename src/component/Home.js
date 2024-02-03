@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 import office from './img/Home-img/office.png'
 import courses from './img/Home-img/courses.jpg'
@@ -6,9 +6,12 @@ import GetInTouch from './img/Home-img/GetInTouch.jpg'
 import GetInTouch2 from './img/Home-img/GetInTouch2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faUserGraduate, faPersonChalkboard, faClock } from '@fortawesome/free-solid-svg-icons'
+import CountUp from 'react-countup'
 
 const Home = () => {
-
+    
+    const [counterOn, setCounterOn] = useState(false);
+    
     window.addEventListener('scroll', () => {
         const Body = document.body;
         let Scrolled = window.scrollY;
@@ -20,25 +23,7 @@ const Home = () => {
             Body.classList.remove('body-change');
         }
     });
-
-    // COUNT UP Animation //
-
-  //  let valueDisplays = document.querySelectorAll(".num");
-    // let interval = 1000;
-    // valueDisplays.forEach((valueDisplay) => {
-    //     let startValue = 0;
-    //     let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-    //     let duration = Math.floor(interval / endValue);
-    //     let counter = setInterval(function () {
-    //         startValue += 1;
-    //         valueDisplay.textContent = startValue;
-    //         if (startValue == endValue) {
-    //             clearInterval(counter);
-    //         }
-    //     }, duration);
-    // });
-
-    // COUNT UP Animation //
+    
 
     return (
         <>
@@ -177,82 +162,83 @@ const Home = () => {
 
             {/*=============== Counters - Start ===============*/}
 
-            <div className="Counters flex">
-                <div className="overlay flex"></div>
-                <div className="countUp one">
-                    <FontAwesomeIcon icon={faGraduationCap} />
-                    <p>
-                        <span className="num" data-val="50">00</span><br />
-                        ONLINE COURSES
-                    </p>
-                </div>
-                <div className="countUp two">
-                    <FontAwesomeIcon icon={faUserGraduate} />
-                    <p>
-                        <span className="num" data-val="2500">0000</span><br />
-                        STUDENTS ENROLLED
-                    </p>
-                </div>
-                <div className="countUp three">
-                    <FontAwesomeIcon icon={faPersonChalkboard} />
-                    <p>
-                        <span className="num" data-val="1200">0000</span><br />
-                        EXPERT INSTRUCTORS
-                    </p>
-                </div>
-                <div className="countUp four">
-                    <FontAwesomeIcon icon={faClock} />
-                    <p>
-                        <span className="num" data-val="300">000</span><br />
-                        CLASSES HOURS
-                    </p>
-                </div>
-            </div>
 
-            {/*================ Counters - Ends ================*/}
-
-            {/*============ Slide - Contact - Starts ============*/}
-
-            <div className="SlideToContacts flex">
+                <div className="Counters flex">
+                    <div className="overlay flex"></div>
+                    <div className="countUp one">
+                        <FontAwesomeIcon icon={faGraduationCap} />
+                        <p>
+                            <span><CountUp start={0} end={50} duration={2} delay={0} /></span><br />
+                            ONLINE COURSES
+                        </p>
+                    </div>
+                    <div className="countUp two">
+                        <FontAwesomeIcon icon={faUserGraduate} />
+                        <p>
+                            <span><CountUp start={0} end={4500} duration={2} delay={0} /></span><br />
+                            STUDENTS ENROLLED
+                        </p>
+                    </div>
+                    <div className="countUp three">
+                        <FontAwesomeIcon icon={faPersonChalkboard} />
+                        <p>
+                            <span><CountUp start={0} end={1200} duration={2} delay={0} /></span><br />
+                            EXPERT INSTRUCTORS
+                        </p>
+                    </div>
+                    <div className="countUp four">
+                        <FontAwesomeIcon icon={faClock} />
+                        <p>
+                            <span><CountUp start={0} end={300} duration={2} delay={0} /></span><br />
+                            CLASSES HOURS
+                        </p>
+                    </div>
+                </div>
+                
+                {/*================ Counters - Ends ================*/}
+                
+                {/*============ Slide - Contact - Starts ============*/}
+                
+                <div className="SlideToContacts flex">
                 <div className="box">
-                    <div className="image">
-                        <img src={GetInTouch} alt='Getin' />
-                    </div>
-                    <div className="image">
-                        <img src={GetInTouch2} alt='Getin' />
-                    </div>
+                <div className="image">
+                <img src={GetInTouch} alt='Getin' />
+                </div>
+                <div className="image">
+                <img src={GetInTouch2} alt='Getin' />
+                </div>
                 </div>
                 <div className="info flex-coloumn">
-                    <p>ENHANCE YOUR SKILLS</p>
-                    <p>Learn Anything You Want Today</p>
-                    <p>We provide most of the Computer Education in minimum cost
-                        and maximum quality. We conduct our classes offline and online
-                        too with live classes and study material will be given by our team
-                        for extra care.</p>
+                <p>ENHANCE YOUR SKILLS</p>
+                <p>Learn Anything You Want Today</p>
+                <p>We provide most of the Computer Education in minimum cost
+                and maximum quality. We conduct our classes offline and online
+                too with live classes and study material will be given by our team
+                for extra care.</p>
                     <button>Get in touch with us</button>
                 </div>
-            </div>
-
-            {/*============= Get - In - Touch - Ends =============*/}
-
-            {/*=============== Enroll - Starts ===============*/}
-
-            <div className="Enroll-Section">
+                </div>
+                
+                {/*============= Get - In - Touch - Ends =============*/}
+                
+                {/*=============== Enroll - Starts ===============*/}
+                
+                <div className="Enroll-Section">
                 <div className="center">
-                    <div className="overlay"></div>
-                    <p>WE ARE STS EDUCATION AN ONLINE LEARNING CENTER</p>
-                    <p>STS Education is one of the online learning platfom in all
-                        over India which provides online learning with 100% Job support
-                        assitance.
-                    </p>
-                    <button>Enroll Now</button>
+                <div className="overlay"></div>
+                <p>WE ARE STS EDUCATION AN ONLINE LEARNING CENTER</p>
+                <p>STS Education is one of the online learning platfom in all
+                over India which provides online learning with 100% Job support
+                assitance.
+                </p>
+                <button>Enroll Now</button>
                 </div>
             </div>
-
+            
             {/*================ Enroll - Ends ================*/}
-
-        </>
-    )
-}
-
-export default Home
+            </>
+            )
+        }
+        
+        export default Home
+        
