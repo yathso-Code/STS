@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Home.css'
 import office from './img/Home-img/office.png'
-import courses from './img/Home-img/courses.jpg'
 import Lern from './reuse/Lern'
 import GetInTouch from './img/Home-img/GetInTouch.jpg'
 import GetInTouch2 from './img/Home-img/GetInTouch2.jpg'
@@ -9,11 +8,10 @@ import GetInTouch2 from './img/Home-img/GetInTouch2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faUserGraduate, faPersonChalkboard, faClock } from '@fortawesome/free-solid-svg-icons'
 import CountUp from 'react-countup'
+import FlexBoxCard from './reuse/FlexBoxCard'
 
 const Home = () => {
-    
-    const [counterOn, setCounterOn] = useState(false);
-    
+
     window.addEventListener('scroll', () => {
         const Body = document.body;
         let Scrolled = window.scrollY;
@@ -25,7 +23,7 @@ const Home = () => {
             Body.classList.remove('body-change');
         }
     });
-    
+
 
     return (
         <>
@@ -92,72 +90,14 @@ const Home = () => {
             <div className="container flex-coloumn">
                 <p>START LEARNING TODAY</p>
                 <p>Pick Your Course Today</p>
-
-
-                <div className="flex-box-one flex">
-                    <div className="box">
-                        <div className="image">
-                            <img src={courses} alt='' />
-                            <span>1st Package</span>
-                        </div>
-                        <div className="info">
-                            Course in 999/- ₹ Only<br />
-                            <p>EACH COURSE <span>FOR 45 DAYS</span></p>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <div className="image">
-                            <img src={courses} alt='' />
-                            <span>2nd Package</span>
-                        </div>
-                        <div className="info">
-                            Course in 1999/- ₹ Only<br />
-                            <p>EACH COURSE <span>FOR 3 MONTHS</span></p>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <div className="image">
-                            <img src={courses} alt='' />
-                            <span>3rd Package</span>
-                        </div>
-                        <div className="info">
-                            Course in 2999/- ₹ Only<br />
-                            <p>EACH COURSE <span>FOR 6 MONTHS</span></p>
-                        </div>
-                    </div>
-
-                    <div className="box">
-                        <div className="image">
-                            <img src={courses} alt='' />
-                            <span>1st Package</span>
-                        </div>
-                        <div className="info">
-                            Course in 999/- ₹ Only<br />
-                            <p>EACH COURSE <span>FOR 45 DAYS</span></p>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <div className="image">
-                            <img src={courses} alt='' />
-                            <span>2nd Package</span>
-                        </div>
-                        <div className="info">
-                            Course in 1999/- ₹ Only<br />
-                            <p>EACH COURSE <span>FOR 3 MONTHS</span></p>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <div className="image">
-                            <img src={courses} alt='' />
-                            <span>3rd Package</span>
-                        </div>
-                        <div className="info">
-                            Course in 2999/- ₹ Only<br />
-                            <p>EACH COURSE <span>FOR 6 MONTHS</span></p>
-                        </div>
-                    </div>
-                </div>
             </div>
+
+            {/*================= FLEX-BOX-CARD =================*/}
+            <div className="Cards">
+                <FlexBoxCard />
+                <FlexBoxCard />
+            </div>
+            {/*================= FLEX-BOX-CARD =================*/}
 
 
             {/*============= Pick - Courses - Ends =============*/}
@@ -165,63 +105,63 @@ const Home = () => {
             {/*=============== Counters - Start ===============*/}
 
 
-                <div className="Counters flex">
-                    <div className="overlay flex"></div>
-                    <div className="countUp one">
-                        <FontAwesomeIcon icon={faGraduationCap} />
-                        <p>
-                            <span><CountUp start={0} end={50} duration={2} delay={0} /></span><br />
-                            ONLINE COURSES
-                        </p>
-                    </div>
-                    <div className="countUp two">
-                        <FontAwesomeIcon icon={faUserGraduate} />
-                        <p>
-                            <span><CountUp start={0} end={4500} duration={2} delay={0} /></span><br />
-                            STUDENTS ENROLLED
-                        </p>
-                    </div>
-                    <div className="countUp three">
-                        <FontAwesomeIcon icon={faPersonChalkboard} />
-                        <p>
-                            <span><CountUp start={0} end={1200} duration={2} delay={0} /></span><br />
-                            EXPERT INSTRUCTORS
-                        </p>
-                    </div>
-                    <div className="countUp four">
-                        <FontAwesomeIcon icon={faClock} />
-                        <p>
-                            <span><CountUp start={0} end={300} duration={2} delay={0} /></span><br />
-                            CLASSES HOURS
-                        </p>
-                    </div>
+            <div className="Counters flex">
+                <div className="overlay flex"></div>
+                <div className="countUp one">
+                    <FontAwesomeIcon icon={faGraduationCap} />
+                    <p>
+                        <span><CountUp start={0} end={50} duration={2} delay={0} /></span><br />
+                        ONLINE COURSES
+                    </p>
                 </div>
-                
-                {/*================ Counters - Ends ================*/}
-                
-                {/*============ Slide - Contact - Starts ============*/}
-                
-                   <Lern GetInTouch={GetInTouch} GetInTouch2={GetInTouch2}/>
-                {/*============= Get - In - Touch - Ends =============*/}
-                
-                {/*=============== Enroll - Starts ===============*/}
-                
-                <div className="Enroll-Section">
-                <div className="center">
-                <div className="overlay"></div>
-                <p>WE ARE STS EDUCATION AN ONLINE LEARNING CENTER</p>
-                <p>STS Education is one of the online learning platfom in all
-                over India which provides online learning with 100% Job support
-                assitance.
-                </p>
-                <button>Enroll Now</button>
+                <div className="countUp two">
+                    <FontAwesomeIcon icon={faUserGraduate} />
+                    <p>
+                        <span><CountUp start={0} end={4500} duration={2} delay={0} /></span><br />
+                        STUDENTS ENROLLED
+                    </p>
+                </div>
+                <div className="countUp three">
+                    <FontAwesomeIcon icon={faPersonChalkboard} />
+                    <p>
+                        <span><CountUp start={0} end={1200} duration={2} delay={0} /></span><br />
+                        EXPERT INSTRUCTORS
+                    </p>
+                </div>
+                <div className="countUp four">
+                    <FontAwesomeIcon icon={faClock} />
+                    <p>
+                        <span><CountUp start={0} end={300} duration={2} delay={0} /></span><br />
+                        CLASSES HOURS
+                    </p>
                 </div>
             </div>
-            
+
+            {/*================ Counters - Ends ================*/}
+
+            {/*============ Slide - Contact - Starts ============*/}
+
+            <Lern GetInTouch={GetInTouch} GetInTouch2={GetInTouch2} />
+            {/*============= Get - In - Touch - Ends =============*/}
+
+            {/*=============== Enroll - Starts ===============*/}
+
+            <div className="Enroll-Section">
+                <div className="center">
+                    <div className="overlay"></div>
+                    <p>WE ARE STS EDUCATION AN ONLINE LEARNING CENTER</p>
+                    <p>STS Education is one of the online learning platfom in all
+                        over India which provides online learning with 100% Job support
+                        assitance.
+                    </p>
+                    <button>Enroll Now</button>
+                </div>
+            </div>
+
             {/*================ Enroll - Ends ================*/}
-            </>
-            )
-        }
-        
-        export default Home
-        
+
+        </>
+    )
+}
+
+export default Home

@@ -1,0 +1,75 @@
+/*----------------- HERO - BANNER - STARTS -----------------*/
+
+.hero_banner{
+    position: relative;
+    width:100vw;
+    height: 100vh;
+    /* border:1px solid red; */
+    background: url("https://images.unsplash.com/photo-1622151834677-70f982c9adef?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwd2l0aCUyMGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+ .hero_banner_txt{
+    /* border:1px solid red; */
+ }
+
+ .hero1{
+    font-size: 16px;
+ }
+ .hero1 span{
+    margin: 0 10px;
+ }
+ .hero2 {
+    font-size:48px; 
+    margin-left:-0px;
+    color:white;
+ }
+
+ /* ----------------------course pannel------------------------------- */
+
+ .Course-section {
+   background-color: #fff;
+   width: 100vw;
+   height: auto;
+   padding: 40px 0;
+ }
+
+ .Learning{
+    width: 100%;
+    /* margin-top:  100px; */
+    color:rgb(39, 113, 197);
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .Course{
+    width: 100%;
+    color:rgb(39, 113, 197);
+    text-align: center;
+ }
+
+ .Course h1 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+ }
+ .Course h1 span:first-child {
+    color: #28A745;
+ }
+ .Course h1 span:last-child {
+    color: red;
+ }
+
+ .Cards {
+   width: 100vw;
+   height: auto;
+   padding: 40px 0;
+   background-color: #fff;
+ }

@@ -240,104 +240,18 @@ body {
     margin-bottom: 30px;
 }
 
-.container .flex-box-one {
-    /* border: 2px solid red; */
-    width: 80vw;
-    height: auto;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-
-.container .flex-box-one .box {
-    /* border: 2px solid blue; */
-    width: 360px;
-    height: auto;
-    background-color: #FFFFFF;
-    padding-bottom: 30px;
-    margin: 20px 0;
-    transition: all .4s;
-    box-shadow: 0 0 5px rgba(128, 128, 128, 0.432);
-    cursor: pointer;
-}
-
-.container .flex-box-one .box:hover {
-    box-shadow: 0 0 20px rgba(128, 128, 128, 0.432);
-    transform: scale(1.05);
-}
-
-.container .flex-box-one .image {
-    position: relative;
-    /* border: 1px solid red; */
-    width: 100%;
-    height: 70%;
-}
-
-.container .flex-box-one .image img {
-    width: 100%;
-    height: 100%;
-}
-
-.container .flex-box-one .image span {
-    position: absolute;
-    left: 10px;
-    bottom: -3px;
-    background-color: #2ed573;
-    color: #fff;
-    font-size: 16px;
-    padding: 2px 10px;
-}
-
-.container .flex-box-one .image span::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: -10px;
-    bottom: 0;
-    border-style: solid;
-    border-width: 0 10px 10px 0;
-    border-color: transparent #05c46b transparent transparent;
-}
-
-.container .flex-box-one .image span::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 0;
-    right: -10px;
-    bottom: 0;
-    border-style: solid;
-    border-width: 10px 10px 0 0;
-    border-color: #05c46b transparent transparent transparent;
-}
-
-.container .flex-box-one .info {
-    margin: auto;
-    width: 90%;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px 0;
-    border-bottom: 1.5px solid rgba(128, 128, 128, 0.288);
-}
-
-.container .flex-box-one .info p {
-    /* border: 1px solid greenyellow; */
-    font-size: 13px;
-    color: gray;
-    margin-top: 10px;
-}
-.container .flex-box-one .info p span {
-    color: #4986FC;
-}
-
-@media screen and (max-width: 768px){
-    .container .flex-box-one .box {
-        width: 300px;
-    }
-}
-
 /*=========== Pick - Courses - Ends ===========*/
+
+/*================ FLEX-BOX-CARD ================*/
+
+.Cards {
+    background-color: #fff;
+    width: 100vw;
+    height: auto;
+    padding: 40px 0;
+}
+
+/*================ FLEX-BOX-CARD ================*/
 
 /*============= Counters - Starts =============*/
 
@@ -390,7 +304,91 @@ body {
 
 /*========= Slide - Contacts - Starts =========*/
 
+.SlideToContacts {
+    width: 100vw;
+    background-color: #FFFFFF;
+    padding: 100px 0;
+    justify-content: space-evenly;
+}
 
+.SlideToContacts .box {
+    position: relative;
+    /* border: 2px solid red; */
+    width: 580px;
+    height: 400px;
+}
+.SlideToContacts .box .image:first-child {
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    padding: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1px gray;
+}
+
+.SlideToContacts .box .image:last-child {
+    /* border: 2px solid blue; */
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    z-index: 1;
+    padding: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1px gray;
+}
+
+.SlideToContacts .box .image img {
+    border: 1.5px solid rgba(128, 128, 128, 0.2);
+    width: 100%;
+    height: 100%;
+}
+
+.SlideToContacts .info {
+    /* border: 2px solid red; */
+    width: 420px;
+    height: auto;
+    font-weight: bold;
+    padding: 20px 0;
+    align-items: flex-start;
+}
+
+.SlideToContacts .info p:first-child {
+    color: #4986FC;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.SlideToContacts .info p:nth-child(2) {
+    font-size: 30px;
+    margin: 20px 0;
+}
+.SlideToContacts .info p:nth-child(3) {
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    font-weight: 100;
+}
+
+.SlideToContacts .info button {
+    padding: 6px 10px;
+    background-color: #4986FC;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.SlideToContacts .info button:active {
+    transform: scale(1.05);
+}
 
 /*========== Slide - Contacts - Ends ==========*/
 
