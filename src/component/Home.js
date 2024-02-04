@@ -4,11 +4,9 @@ import office from './img/Home-img/office.png'
 import Lern from './reuse/Lern'
 import GetInTouch from './img/Home-img/GetInTouch.jpg'
 import GetInTouch2 from './img/Home-img/GetInTouch2.jpg'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGraduationCap, faUserGraduate, faPersonChalkboard, faClock } from '@fortawesome/free-solid-svg-icons'
-import CountUp from 'react-countup'
 import FlexBoxCard from './reuse/FlexBoxCard'
+import CounterUp from './reuse/CountingUpPage'
+import EnrollPage from './reuse/EnrollPage'
 
 const Home = () => {
 
@@ -102,63 +100,19 @@ const Home = () => {
 
             {/*============= Pick - Courses - Ends =============*/}
 
-            {/*=============== Counters - Start ===============*/}
-
-
-            <div className="Counters flex">
-                <div className="overlay flex"></div>
-                <div className="countUp one">
-                    <FontAwesomeIcon icon={faGraduationCap} />
-                    <p>
-                        <span><CountUp start={0} end={50} duration={2} delay={0} /></span><br />
-                        ONLINE COURSES
-                    </p>
-                </div>
-                <div className="countUp two">
-                    <FontAwesomeIcon icon={faUserGraduate} />
-                    <p>
-                        <span><CountUp start={0} end={4500} duration={2} delay={0} /></span><br />
-                        STUDENTS ENROLLED
-                    </p>
-                </div>
-                <div className="countUp three">
-                    <FontAwesomeIcon icon={faPersonChalkboard} />
-                    <p>
-                        <span><CountUp start={0} end={1200} duration={2} delay={0} /></span><br />
-                        EXPERT INSTRUCTORS
-                    </p>
-                </div>
-                <div className="countUp four">
-                    <FontAwesomeIcon icon={faClock} />
-                    <p>
-                        <span><CountUp start={0} end={300} duration={2} delay={0} /></span><br />
-                        CLASSES HOURS
-                    </p>
-                </div>
-            </div>
-
-            {/*================ Counters - Ends ================*/}
+            <CounterUp />
 
             {/*============ Slide - Contact - Starts ============*/}
 
             <Lern GetInTouch={GetInTouch} GetInTouch2={GetInTouch2} />
             {/*============= Get - In - Touch - Ends =============*/}
+            
+            
+            {/*============= Enroll - Page =============*/}
 
-            {/*=============== Enroll - Starts ===============*/}
+            <EnrollPage />
 
-            <div className="Enroll-Section">
-                <div className="center">
-                    <div className="overlay"></div>
-                    <p>WE ARE STS EDUCATION AN ONLINE LEARNING CENTER</p>
-                    <p>STS Education is one of the online learning platfom in all
-                        over India which provides online learning with 100% Job support
-                        assitance.
-                    </p>
-                    <button>Enroll Now</button>
-                </div>
-            </div>
-
-            {/*================ Enroll - Ends ================*/}
+            {/*============= Enroll - Page =============*/}
 
         </>
     )
