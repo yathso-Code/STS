@@ -2,7 +2,7 @@ import React from 'react'
 import './FlexBoxCard.css'
 import courses from '../img/Home-img/courses.jpg'
 
-const FlexBoxCard = (name) => {
+const FlexBoxCard = () => {
     return (
         <>
             <div className="flex-box-card">
