@@ -49,7 +49,8 @@
     width: 350px;
     height: 520px;
     /* border: 1px solid blue; */
-    background-color: blue;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,0.76234243697479) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,6 +159,7 @@
     font-size: 15px;
     border: none;
     border-bottom: 1px solid grey;
+    outline: none;
     width: 100%;
 }
 
