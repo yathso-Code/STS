@@ -1,0 +1,59 @@
+.flex,
+.flex-coloumn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-coloumn {
+    flex-direction: column;
+}
+
+/*============= Counters - Starts =============*/
+
+.Counters {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background: transparent;
+    justify-content: space-evenly;
+    gap: 40px;
+    padding: 100px;
+}
+
+.Counters .overlay {
+    position: absolute;
+    height: auto;
+    background: linear-gradient(45deg, #CB4BE8, #4970E5);
+    opacity: 0.8;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.Counters .countUp {
+    /* border: 2px solid red; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 50px;
+    color: white;
+    z-index: 1;
+}
+
+.Counters .countUp p {
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.Counters .countUp p span {
+    font-size: 28px;
+}
+
+/*============== Counters - Ends ==============*/
