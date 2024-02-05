@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import HalfImage from './img/About-img/HalfImage.jpg'
 import Lern from './reuse/Lern'
 import CountingUpPage from './reuse/CountingUpPage'
 import GetInTouch from './img/Home-img/GetInTouch.jpg'
@@ -16,10 +17,10 @@ const About = () => {
 
       {/* =================================== Hero Banner ================================== */}
 
-      <div class="herobanner">
+      <div className="herobanner">
         <img src="https://img.freepik.com/premium-photo/image-young-student-happy-man-library-doing-homework-studying-read-using-laptop-computer_171337-56681.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' />
 
-        <div class="heroBanner_text">
+        <div className="heroBanner_text">
           <p>Home <FontAwesomeIcon icon={faAngleRight} /> About us <FontAwesomeIcon icon={faAngleRight} /></p>
           <h1>About Us</h1>
         </div>
@@ -28,12 +29,12 @@ const About = () => {
       {/* =================================== Hero Banner ================================== */}
 
       {/* ======================================== Main_Container ========================================*/}
-      <div class="main_container">
-        <img src="assets/img/b.jpg" alt='' />
+      <div className="main_container">
+        <img src={HalfImage} alt='' />
 
         {/* ============ Half-Screen-Box ============*/}
-        <div class="half_screen_box">
-          <div class="half_screen_text_box">
+        <div className="half_screen_box">
+          <div className="half_screen_text_box">
             <h5>TESTIMONIAL</h5>
             <h1>What Our Students Says</h1>
           </div>
@@ -41,10 +42,10 @@ const About = () => {
         {/* ============ Half-Screen-Box ============*/}
 
         {/* ============= Parent-Card-Box =============*/}
-        <div class="card_parent_box">
+        <div className="card_parent_box">
           {/* === First-Card ===*/}
-          <div class="card">
-            <div class="star_box">
+          <div className="card">
+            <div className="star_box">
               <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
@@ -57,10 +58,10 @@ const About = () => {
               The Institute also helps to get good jobs in companies.
             </p>
 
-            <div class="cir_box_container">
-              <div class="circle_img"><img src="https://img.freepik.com/free-photo/portrait-boy-red-jacket-3d-rendering_1142-38842.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
-              <div class="cir_text">
-                <h1>Nihil</h1>
+            <div className="cir_box_container">
+              <div className="circle_img"><img src="https://img.freepik.com/free-photo/portrait-boy-red-jacket-3d-rendering_1142-38842.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
+              <div className="cir_text">
+                <h1>Nikhil</h1>
                 <h5>Web developer</h5>
               </div>
             </div>
@@ -68,38 +69,40 @@ const About = () => {
           {/* === First-Card ===*/}
 
           {/* === Second-Card ===*/}
-          <div class="card">
-            <div class="star_box">
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
+
+          <div className="card">
+            <div className="star_box">
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
             </div>
-            <p>If you want to pursue a career in computer science, then this institute is the best choice for you.
-              The institute has a comprehensive and updated curriculum in computer science, and the teachers are friendly and
-              helplful. The institute also has a well-equipped infrastructure and resources, and conducts industry
-              visits and internships for the students.
+            <p>One thing that is important for lives we should follow them also accept the modernized way of
+              life. As the computer will take a special place in our lives everyone needs to know about it. So I learn
+              computer online for business purpose. I joined STS education. Their work is appricable.
+              The Institute also helps to get good jobs in companies.
             </p>
 
-            <div class="cir_box_container">
-              <div class="circle_img"><img src="https://img.freepik.com/free-photo/one-young-adult-posing-with-futuristic-eyeglasses-generated-by-ai_188544-19658.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
-              <div class="cir_text">
+            <div className="cir_box_container">
+            <div className="circle_img"><img src="https://img.freepik.com/free-photo/one-young-adult-posing-with-futuristic-eyeglasses-generated-by-ai_188544-19658.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
+              <div className="cir_text">
                 <h1>Sharad Kumar</h1>
-                <h5>web developer</h5>
+                <h5>Web developer</h5>
               </div>
             </div>
           </div>
+
           {/* === Second-Card ===*/}
 
           {/* === Third-Card ===*/}
-          <div class="card">
-            <div class="star_box">
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
+          <div className="card">
+            <div className="star_box">
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
             </div>
             <p>I highly recommend this insitute for computer science enthusiasts. The institute offer a variety of courses
               and programs in computer science, and the faculty members are experts in their fields. The institute also has a modernized
@@ -107,10 +110,10 @@ const About = () => {
               The Institute also helps to get good jobs in companies.
             </p>
 
-            <div class="cir_box_container">
-              <div class="circle_img"><img src="https://img.freepik.com/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419470.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
-              <div class="cir_text">
-                <h1>Ayush Twiari</h1>
+            <div className="cir_box_container">
+              <div className="circle_img"><img src="https://img.freepik.com/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419470.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
+              <div className="cir_text">
+                <h1>Ayush Tiwari</h1>
                 <h5>web developer</h5>
               </div>
             </div>
@@ -118,13 +121,13 @@ const About = () => {
           {/* === Third-Card ===*/}
 
           {/* === Forth-Card ===*/}
-          <div class="card">
-            <div class="star_box">
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
-            <FontAwesomeIcon icon={faStar} />
+          <div className="card">
+            <div className="star_box">
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
             </div>
             <p>This institute is a great place to learn computer scrience. The teacher are knowledgeable and supportive,
               and the courses are up-to-date and relevant. The institute also has a good infrastructure and facilities, and
@@ -132,9 +135,9 @@ const About = () => {
               from this institute.
             </p>
 
-            <div class="cir_box_container">
-              <div class="circle_img"><img src="https://img.freepik.com/free-photo/3d-cartoon-style-character_23-2151034029.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
-              <div class="cir_text">
+            <div className="cir_box_container">
+              <div className="circle_img"><img src="https://img.freepik.com/free-photo/3d-cartoon-style-character_23-2151034029.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
+              <div className="cir_text">
                 <h1>Shubham Patel</h1>
                 <h5>Digital Marketer</h5>
               </div>
@@ -143,14 +146,14 @@ const About = () => {
           {/* === Forth-Card ===*/}
         </div>
         {/* ============= Parent-Card-Box =============*/}
-      </div>
+      </div >
       {/* ======================================== Main_Container ======================================== */}
 
 
 
-      <Lern GetInTouch={GetInTouch} GetInTouch2={GetInTouch2} />
+      < Lern GetInTouch={GetInTouch} GetInTouch2={GetInTouch2} />
       <CountingUpPage />
-      <EnrollPage />
+      <EnrollPage InfoTitle={'We are STS Education an online learning center'} Information={'We can manage your dream building A small river named Duden flows by their place'}  BUTTON={''}/>
     </>
   )
 }
