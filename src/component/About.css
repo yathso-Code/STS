@@ -1,0 +1,145 @@
+
+/* =================================== Hero Banner ================================== */
+.herobanner{
+    /* border:2px solid black; */
+    width:100%;
+    height:100vh;
+    position:relative;
+}
+.herobanner img{
+    width:100%;
+    height:100%;
+}
+.herobanner .heroBanner_text{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-weight:bolder;
+}
+.herobanner .heroBanner_text h1{
+    font-size:3rem;
+}
+.herobanner .heroBanner_text p{
+    text-align:center;
+    /* margin-bottom:10px; */
+}
+/* =================================== Hero Banner ================================== */
+
+/* ============================ Main-Container ================================*/
+.main_container{
+    /* border:2px solid black; */
+    height: 1000px;
+    width:100vw;
+    position:relative;
+}
+.main_container img{
+    width:100%;
+    height:100%;
+}
+
+/* ============================ Half-Box ================================*/
+.main_container .half_screen_box {
+    /* border:2px solid black; */
+    width:50vw;
+    height:100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    background-color:aliceblue;
+}
+@media screen and (max-width:800px) {
+    .main_container {
+        height: 3400px;
+    }
+    .main_container .half_screen_box {
+        width:100%;
+        height: 500px;
+    }
+}
+.main_container .half_screen_box .half_screen_text_box {
+    /* border:2px solid red; */
+    height: auto;
+    width:100%;
+    position:absolute;
+    top:10%;
+    left:0%;
+    padding-top:5vh;
+    padding-left:7vw;
+}
+@media screen and (max-width:900px) {
+    .main_container .half_screen_box .half_screen_text_box {
+        text-align:center;
+    }
+}
+.main_container .half_screen_box .half_screen_text_box h5{
+    /* border: 1px solid red;  */
+    text-align: left;
+    color:blue;
+    /* font-size:1vw; */
+    margin-bottom: 1vh;
+}
+.main_container .half_screen_box .half_screen_text_box h1{
+    color: gray;
+}
+
+/* ============================ Cards ================================*/
+.main_container .card_parent_box {
+    /* border:3px solid lime; */
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:34%;
+    left:0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main_container .card_parent_box .card {
+    /* border:2px solid black; */
+    width:270px;
+    height:auto;
+    margin:10px;
+    background-color:white;
+    padding:17px;
+    border-radius:10px;
+    box-shadow:2px 10px 5px black;
+}
+.main_container .card_parent_box .card .star_box {
+    color:yellow;
+    margin-top:10px;
+}
+.main_container .card_parent_box .card p {
+    color:rgb(48, 45, 45);
+    word-spacing:4px;
+    line-height:20px;
+}
+.main_container .card_parent_box .card .cir_box_container {
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.main_container .card_parent_box .card .cir_box_container .circle_img {
+    border:1px solid rgb(129, 119, 119);
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    flex: 50%;
+}
+.main_container .card_parent_box .card .cir_box_container .circle_img img{
+    width:100%;
+    height:100%;
+    border-radius: 55px;
+}
+.main_container .card_parent_box .card .cir_box_container .cir_text {
+    flex: 50%;
+}
+.main_container .card_parent_box .card .cir_box_container h1 {
+    font-size:25px;
+    color:blue;
+}
+.main_container .card_parent_box .card .cir_box_container h5 {
+    color:blue;
+}

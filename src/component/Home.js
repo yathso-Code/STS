@@ -106,11 +106,11 @@ const Home = () => {
 
             <Lern GetInTouch={GetInTouch} GetInTouch2={GetInTouch2} />
             {/*============= Get - In - Touch - Ends =============*/}
-            
-            
+
+
             {/*============= Enroll - Page =============*/}
 
-            <EnrollPage />
+            <EnrollPage InfoTitle={'WE ARE STS EDUCATION AN ONLINE LEARNING CENTER'} Information={'STS Education is one of the online learning platfom in all over India which provides online learning with 100% Job support assitance.'} BUTTON={<button>Enroll Now</button>} />
 
             {/*============= Enroll - Page =============*/}
 
