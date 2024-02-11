@@ -32,7 +32,7 @@ const OnlineLearn = () => {
           </p>
           <p>We provide most of Computer Education in minimum cost and maximum quality.</p>
           <div className="image">
-            <img src="https://www.pngitem.com/pimgs/m/35-357850_business-man-working-man-working-on-computer-clipart.png" width="35%" height="25%" alt='' />
+            <img  src="https://www.pngitem.com/pimgs/m/35-357850_business-man-working-man-working-on-computer-clipart.png" width="35%" height="25%" alt='' />
             <span>Joining Package</span>
           </div>
         </div>

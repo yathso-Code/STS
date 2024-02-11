@@ -18,7 +18,8 @@ const About = () => {
       {/* =================================== Hero Banner ================================== */}
 
       <div className="herobanner">
-        <img src="https://img.freepik.com/premium-photo/image-young-student-happy-man-library-doing-homework-studying-read-using-laptop-computer_171337-56681.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' />
+        <img src="https://img.freepik.com/premium-photo/image-young-student-happy-man-library-doing-homework-studying-read-using-laptop-computer_171337-56681.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' 
+        style={{filter: "blur(2px)", filter: " brightness(50%)"}} />
 
         <div className="heroBanner_text">
           <p>Home <FontAwesomeIcon icon={faAngleRight} /> About us <FontAwesomeIcon icon={faAngleRight} /></p>
