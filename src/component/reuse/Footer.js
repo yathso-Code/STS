@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelope, faPaperPlane, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faPaperPlane, faHeart,faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import React from 'react'
 import './Footer.css'
 import instagram from '../img/Footer-img/instagram.png';
@@ -18,9 +18,8 @@ const Footer = () => {
         <>
             <footer>
                 <div className="About">
-                    <h2>About Us</h2>
-                    <p>STS Education is one of the education paltfom in all over india its provide online learning with Earning
-                        (jobs).</p>
+                    <h2>Address</h2>
+                    <p> <FontAwesomeIcon icon={faLocationDot} /> Patrika Marg, Civil Lines, Prayagraj, Uttar Pradesh 211001</p>
                     <div className="Social-media">
                         <a href="https://twitter.com/"><img src={twitter} alt='twitter' /></a>
                         <a href="https://www.facebook.com"><img src={facebook} alt='facebook' /></a>

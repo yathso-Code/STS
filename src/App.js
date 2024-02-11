@@ -9,6 +9,7 @@ import Contact from './component/Contact';
 import Course from './component/Course';
 import OnlineLearn from './component/OnlineLearn';
 import {createContext} from 'react'
+import Error from './component/Error';
 
 
 export const Api = createContext();
@@ -17,6 +18,7 @@ export const Api = createContext();
 
 function App() {
   let [loading, setLoading] = useState(false);
+  // ----------------loding ----------------
   useEffect(()=>{
     setLoading(true)
 
@@ -25,6 +27,7 @@ function App() {
      },1000)
 
   },[]);
+
   let startLearn=[
           {
             name: 'Microsoft Office',
@@ -68,6 +71,7 @@ function App() {
         <Route path="/course" element={ <Course /> } />
         <Route path="/contact" element={ <Contact /> } />
         <Route path="/onlineLearn" element={ <OnlineLearn /> } />
+        <Route path="*" element={ <Error /> } />
       </Routes>
       <Footer />
       </Api.Provider>
