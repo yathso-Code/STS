@@ -31,8 +31,7 @@ const Course = () => {
 
       {/* =  FLEX - BOX - CARD  = */}
 <div className="Cards">
-      <FlexBoxCard />
-      <FlexBoxCard />
+      <FlexBoxCard num={8}/>
       </div>
 
 
