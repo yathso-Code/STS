@@ -11,6 +11,7 @@ const Navbar = () => {
  window.addEventListener('scroll', ()=> {
   let Scrolled = window.scrollY;
   // console.log(Scrolled)
+  // window.scrollY =0
   if(Scrolled >= 320){
     setNewClass('Fixed-Navbar');
 }else {
@@ -19,6 +20,11 @@ const Navbar = () => {
  })
 // ==============close the nav bar ===================
  function closeNav(){
+   // Get the element to scroll to (for example, the body element)
+   const bodyElement = document.body;
+
+   // Scroll to the top of the page smoothly
+   bodyElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
   document.getElementById('chk-box').checked = false;
  }
 
@@ -33,7 +39,7 @@ const Navbar = () => {
 
         <NavLink to="/course" onClick={closeNav} >Courses</NavLink>
 
-        <NavLink to="/onlineLearn"  onClick={closeNav}>Online Learning</NavLink>
+        <NavLink to="/onlineLearn"  onClick={closeNav}>Learning</NavLink>
 
         <NavLink to="/contact"  onClick={closeNav} >Contact</NavLink>
           

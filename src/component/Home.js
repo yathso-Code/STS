@@ -7,8 +7,15 @@ import GetInTouch2 from './img/Home-img/GetInTouch2.jpg'
 import FlexBoxCard from './reuse/FlexBoxCard'
 import CounterUp from './reuse/CountingUpPage'
 import EnrollPage from './reuse/EnrollPage'
+import  {useContext} from 'react'
+import {Api} from '../App';
+import { Link } from 'react-router-dom'
 
 const Home = () => {
+    let a = useContext(Api);
+    console.log(a.startLearn);
+    let arr = a.startLearn;
+    // let arr =[3,4,5,5,5,6]
 
     window.addEventListener('scroll', () => {
         const Body = document.body;
@@ -33,8 +40,8 @@ const Home = () => {
                     <p className="sf">Online Learning with Big Earning</p>
                     <p>STS Education is a best online learning and Earning platform</p>
                     <div className="btn">
-                        <button>Our Course</button>
-                        <button>Learn More</button>
+                        <button><Link to='/course'>Our Course</Link>   </button>
+                        <button><Link to='/about'>Learn More</Link></button>
                     </div>
                 </div>
             </div>
@@ -47,38 +54,19 @@ const Home = () => {
                 <p>START LEARNING TODAY</p>
                 <p>Our best online Courses</p>
                 <div className="course-list">
-                    <a href="www.office.com">
-                        <img src={office} alt="office" />
-                        <span className="name">Microsoft</span>
-                        <span className="days">45 Days</span>
-                    </a>
-                    <a href="www.office.com">
-                        <img src={office} alt="office" />
-                        <span className="name">Microsoft</span>
-                        <span className="days">45 Days</span>
-                    </a>
-                    <a href="www.office.com">
-                        <img src={office} alt="office" />
-                        <span className="name">Microsoft</span>
-                        <span className="days">45 Days</span>
-                    </a>
-                    <a href="www.office.com">
-                        <img src={office} alt="office" />
-                        <span className="name">Microsoft</span>
-                        <span className="days">45 Days</span>
-                    </a>
-                    <a href="www.office.com">
-                        <img src={office} alt="office" />
-                        <span className="name">Microsoft</span>
-                        <span className="days">45 Days</span>
-                    </a>
-                    <a href="www.office.com">
-                        <img src={office} alt="office" />
-                        <span className="name">Microsoft</span>
-                        <span className="days">45 Days</span>
-                    </a>
+
+                 {arr.map((item)=>(
+                     <div className='best_course_card_box'>
+                      <a href="www.office.com">
+                      <img src={item.img} alt="office" />
+                       <span className="name">{item.name}</span>
+                       <span className="days">{item.Day}</span>
+                      </a>
+                     </div>
+                 )) }
+
                 </div>
-                <button>More Courses</button>
+                
             </div>
 
             {/*============= Best - Courses - Ends =============*/}

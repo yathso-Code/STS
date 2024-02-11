@@ -1,5 +1,6 @@
 import React from 'react'
 import './Lern.css'
+import { Link } from 'react-router-dom'
 
 
 const Lern = ( {GetInTouch, GetInTouch2}) => {
@@ -21,7 +22,7 @@ const Lern = ( {GetInTouch, GetInTouch2}) => {
     and maximum quality. We conduct our classes offline and online
     too with live classes and study material will be given by our team
     for extra care.</p>
-        <button>Get in touch with us</button>
+        <button><Link to="/contact" style={{color: "white", textDecoration: 'none'}}>Get in touch with us</Link></button>
     </div>
     </div>
     

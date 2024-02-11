@@ -8,6 +8,12 @@ import twitter from '../img/Footer-img/twitter.png';
 import whatsapp from '../img/Footer-img/whatsapp.png';
 
 const Footer = () => {
+    const phoneNumber = "+91-9651363333";
+    // clcik call function ----------------------
+    const handleClickToCall = () => {
+        window.location.href = `tel:${phoneNumber.replace(/-/g, '')}`;
+      };
+
     return (
         <>
             <footer>
@@ -24,7 +30,7 @@ const Footer = () => {
                 </div>
                 <div className="Contact">
                     <h2>Have a Question ?</h2>
-                    <div><span><FontAwesomeIcon icon={faPhone} /></span>+91-2244668822</div>
+                    <div onClick={handleClickToCall}><span><FontAwesomeIcon icon={faPhone} /></span>{phoneNumber}</div>
                     <div><span><FontAwesomeIcon icon={faEnvelope} /></span>abc123@gmail.com</div>
                     <div className="input-area">
                         <input type="text" placeholder="Your Mobile Number" />

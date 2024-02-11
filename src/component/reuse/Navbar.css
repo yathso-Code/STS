@@ -15,18 +15,18 @@ nav {
     top: 0;
     left: 0;
     position: fixed;
-    background: #fff;
-    color: black;
+    background: linear-gradient(45deg, #CB4BE8, #4970E5);
+    color: rgb(248, 246, 246);
     animation: Fixed .8s;
 }
 .Fixed-Navbar .logo {
-    color: black;
+    color: rgb(236, 235, 235);
 }
 .Fixed-Navbar .links a {
-    color: black;
+    color: rgb(224, 223, 223);
 }
 .Fixed-Navbar label {
-    color: black;
+    color: rgb(225, 224, 224);
 }
 
 @keyframes Fixed {
