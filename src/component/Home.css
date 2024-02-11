@@ -36,6 +36,28 @@ body {
 
 /*=========== FLEX - FOR - ALL ===========*/
 
+
+
+/*=============== Intro - Starts ===============*/
+
+.Intro {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 50px 10px;
+}
+
+.Intro .login_box{
+     /* border: 2px solid red; */
+     margin: 20px 10px;
+     max-width: 450px;
+     min-width: 150px;
+
+}
 /* ---------------------login ----------------- */
 
 .Intro .login_box form {
@@ -105,27 +127,6 @@ body {
 
 
 /* ---------------login end------------ */
-
-/*=============== Intro - Starts ===============*/
-
-.Intro {
-    /* border: 2px solid red; */
-    width: 100vw;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: white;
-    padding: 50px 10px;
-}
-
-.Intro .login_box{
-     /* border: 2px solid red; */
-     margin: 20px 10px;
-     max-width: 450px;
-     min-width: 150px;
-
-}
 .Intro .Welcome {
     /* border: 2px solid red; */
     width: 700px;
