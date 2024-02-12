@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css'
-import office from './img/Home-img/office.png'
 import Lern from './reuse/Lern'
 import GetInTouch from './img/Home-img/GetInTouch.jpg'
 import GetInTouch2 from './img/Home-img/GetInTouch2.jpg'
@@ -37,7 +36,7 @@ const Home = () => {
             <div className="Intro">
                 <div className="Welcome">
                     <p>WELCOME TO STS EDUCATION</p>
-                    <p className="sf">Online Learning with Big Earning</p>
+                    <p className="sf">A Leading Institute of Coding class</p>
                     <p>STS Education is a best online learning and Earning platform</p>
                     <div className="btn">
                         <button><Link to='/course'>Our Course</Link>   </button>

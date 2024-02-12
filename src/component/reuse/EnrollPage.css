@@ -29,7 +29,7 @@
     right: 0;
     bottom: 0;
     opacity: .5;
-    background: #CB4BE8;
+    background: linear-gradient(90deg, rgba(58,171,180,1) 0%, rgba(209,137,195,1) 50%, rgba(69,252,222,1) 100%);
     z-index: -1;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .Enroll-Section .center .btn button {
-    background-color: #4986FC;
+    background-color: #4AF7DD;
     font-size: 15px;
     color: #fff;
     border: none;
