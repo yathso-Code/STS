@@ -115,7 +115,7 @@ nav label {
     nav .links {
         /* display: none; */
         position: absolute;
-        top: 80px;
+        top: 60px;
         left: -100%;
         background-color: black;
         width: 100vw;

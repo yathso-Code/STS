@@ -41,7 +41,7 @@ const Home = () => {
                     <p>STS Education is a best online learning and Earning platform</p>
                     <div className="btn">
                         <button><Link to='/course'>Our Course</Link>   </button>
-                        <button><Link to='/about'>Learn More</Link></button>
+                        <button><Link to='/about'>Certificate</Link></button>
                     </div>
                 </div>
                 <div className='login_box'>

@@ -25,6 +25,7 @@ const Navbar = () => {
 
    // Scroll to the top of the page smoothly
    bodyElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+   
   document.getElementById('chk-box').checked = false;
  }
 
