@@ -91,12 +91,12 @@ const OnlineLearn = () => {
           </tr>
           <tr>
           <th>3</th>
-            <th>JS ES6</th>
+            <th>javaScript ES6</th>
             <th>30 DAYS</th>
           </tr>
           <tr>
           <th>4</th>
-            <th>BootStrap</th>
+            <th>BootStrap5</th>
             <th>5 DAYS</th>
           </tr>
           <tr>
@@ -106,7 +106,7 @@ const OnlineLearn = () => {
           </tr>
           <tr>
           <th>7</th>
-            <th>React</th>
+            <th>Next jS</th>
             <th>15 DAYS</th>
           </tr>
           <tr>
@@ -116,14 +116,10 @@ const OnlineLearn = () => {
           </tr>
           <tr>
           <th>9</th>
-            <th>Git</th>
+            <th>Git / Github</th>
             <th>4 DAYS</th>
           </tr>
-          <tr>
-            <th>10</th>
-            <th>Git Hub</th>
-            <th>2 Days</th>
-          </tr>
+         
         </table>
 
         {/*===============================  THIRD COURSE DURATION  ===============================*/}
@@ -174,13 +170,13 @@ const OnlineLearn = () => {
           </tr>
           <tr>
             <th>6</th>
-            <th>Git</th>
+            <th>Git / Github</th>
             <th>2 DAYS</th>
           </tr>
           <tr> 
              <th>7</th>
-             <th>Git Hub</th>
-             <th>2 DAYS</th>
+             <th>PHP</th>
+             <th>30 DAYS</th>
           </tr>
         </table>
 
@@ -215,6 +211,50 @@ const OnlineLearn = () => {
             <th>JAVA</th>
             <th>25 DAYS</th>
           </tr>
+          <tr>
+          <th>4</th>
+          <th>PHP+ SQl</th>
+          <th>45 DAYS</th>
+        </tr>
+        </table>
+
+         
+        <div className="fourth_course_table">
+        <span style={{color: '#fff'}}>OTHER ..</span>
+        <span style={{color: '#fff'}}>+</span>
+      </div>
+
+        <table className="second_package_table">
+          <tr>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }} >S.No</th>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Name</th>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Duration</th>
+          </tr>
+          <tr>
+             <th>1</th>
+             <th>O-Level</th>
+              <th>1 year</th>
+          </tr>
+          <tr>
+            <th>2</th>
+            <th>DCA</th>
+            <th>6 month</th>
+          </tr>
+          <tr>
+            <th>3</th>
+            <th>Tally</th>
+            <th>3 month</th>
+          </tr>
+          <tr>
+            <th>4</th>
+            <th>ADCA</th>
+            <th>1 year</th>
+          </tr>
+          <tr>
+          <th>5</th>
+          <th>Microsoft Offuce</th>
+          <th>45 Day</th>
+        </tr>
         </table>
       </div>
 
