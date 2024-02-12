@@ -67,128 +67,70 @@ const OnlineLearn = () => {
 
       <div className="linear_gradient">
         <div className="second_course_table">
-          <span>Second Package Course in 999/- rupess</span>
-          <span>+</span>
+          <span style={{color: '#fff'}}>FRONT-END DEVELOPER</span>
+          <span style={{color: '#fff'}}>+</span>
         </div>
 
         {/*===============================   SECOND PACKAGE TABLE  ===============================*/}
 
         <table className="second_package_table">
           <tr>
-            <td style={{ color: 'black', fontWeight: 'bold' }} >S.No</td>
-            <td style={{ color: 'black', fontWeight: 'bold' }}>Course Name</td>
-            <td style={{ color: 'black', fontWeight: 'bold' }}>Course Duration</td>
-            <td style={{ color: 'black', fontWeight: 'bold' }}>Fees</td>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }} >S.No</th>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Name</th>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Duration</th>
           </tr>
           <tr>
-            <td>1</td>
-            <td>Certificate In Microsoft Office</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
+          <th>1</th>
+            <th>HTML5</th>
+            <th>15 DAYS</th>
           </tr>
           <tr>
-            <td>2</td>
-            <td>Certificate In Excel</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
+          <th>2</th>
+            <th>CSS3</th>
+            <th>25 DAYS</th>
           </tr>
           <tr>
-            <td>3</td>
-            <td>Certificate In Tally ERP 9</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
+          <th>3</th>
+            <th>JS ES6</th>
+            <th>30 DAYS</th>
           </tr>
           <tr>
-            <td>4</td>
-            <td>Certificate In GST</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
+          <th>4</th>
+            <th>BootStrap</th>
+            <th>5 DAYS</th>
           </tr>
           <tr>
-            <td>5</td>
-            <td>Certificate In DTP</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
+          <th>5</th>
+            <th>CANVA</th>
+            <th>7 DAYS</th>
           </tr>
           <tr>
-            <td>6</td>
-            <td>Certificate In Photoshop</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
+          <th>7</th>
+            <th>React</th>
+            <th>15 DAYS</th>
           </tr>
           <tr>
-            <td>7</td>
-            <td>Certificate In Corel Draw</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
+          <th>8</th>
+            <th>React JS</th>
+            <th>3 DAYS</th>
           </tr>
           <tr>
-            <td>8</td>
-            <td>Certificate In C Language</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
+          <th>9</th>
+            <th>Git</th>
+            <th>4 DAYS</th>
           </tr>
           <tr>
-            <td>9</td>
-            <td>Certificate In C++ Language</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Certificate In JAVA</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>Certificate In PHP</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>Certificate In HTML</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>Certificate In CSS</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td>Certificate In WORDPRESS</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
-          </tr>
-          <tr>
-            <td>15</td>
-            <td>Certificate In Autocad</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
-          </tr>
-          <tr>
-            <td>16</td>
-            <td>BASIC KNOWLEDGE IN COMPUTER</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
-          </tr>
-          <tr>
-            <td>17</td>
-            <td>Spoken English</td>
-            <td>45 Days</td>
-            <td>999/-Rs</td>
+            <th>10</th>
+            <th>Git Hub</th>
+            <th>2 Days</th>
           </tr>
         </table>
 
         {/*===============================  THIRD COURSE DURATION  ===============================*/}
 
         <div className="third_course_table">
-          <span>Third Package Course in 1999/- rupess</span>
-          <span>+</span>
+          <span style={{color: '#fff'}}>BACK-END DEVELOPER</span>
+          <span style={{color: '#fff'}}>+</span>
         </div>
 
         {/*===============================   ===============================*/}
@@ -198,96 +140,55 @@ const OnlineLearn = () => {
 
         <table className="third_package_table">
           <tr>
-            <td style={{ color: 'black', fontWeight: 'bold' }} >S.No</td>
-            <td style={{ color: 'black', fontWeight: 'bold' }}>Course Name</td>
-            <td style={{ color: 'black', fontWeight: 'bold' }}>Course Duration</td>
-            <td style={{ color: 'black', fontWeight: 'bold' }}>Fees</td>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }} >S.No</th>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Subject</th>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Duration</th>
           </tr>
           <tr>
-            <td>1</td>
-            <td>Diploma In Computer Application (DCA)</td>
-            <td>6 Month</td>
-            <td>1999/-Rs</td>
+             <th>1</th>
+             <th>SQL</th>
+             <th>25 DAYS</th>
+             
           </tr>
           <tr>
-            <td>2</td>
-            <td>Diploma In Tally</td>
-            <td>6 Month</td>
-            <td>1999/-Rs</td>
+            <th>2</th>
+            <th>My SQL</th>
+             <th>10 DAYS</th>
+
           </tr>
           <tr>
-            <td>3</td>
-            <td>Diploma In Computer Accounting & GST</td>
-            <td>6 Month</td>
-            <td>1999/-Rs</td>
+            <th>3</th>
+            <th>Mongo Db</th>
+            <th>15 DAYS</th>
           </tr>
           <tr>
-            <td>4</td>
-            <td>Diploma In Graphic Designing</td>
-            <td>6 Month</td>
-            <td>1999/-Rs</td>
+            <th>4</th>
+            <th>Node JS</th>
+            <th>25 DAYS</th>
+
+          </tr>
+          <tr> 
+             <th>5</th>
+             <th>Express.Js</th>
+             <th>4 DAYS</th>
           </tr>
           <tr>
-            <td>5</td>
-            <td>Certificate In Computer Basic</td>
-            <td>3 Months</td>
-            <td>1999/-Rs</td>
+            <th>6</th>
+            <th>Git</th>
+            <th>2 DAYS</th>
           </tr>
-          <tr>
-            <td>6</td>
-            <td>Certificate In Microsoft office</td>
-            <td>3 Months</td>
-            <td>1999/-Rs</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>Certificate In Autocad Training</td>
-            <td>3 Months</td>
-            <td>1999/-Rs</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>Certificate In C++ & Java</td>
-            <td>3 Months</td>
-            <td>1999/-Rs</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>Certificate In Core Java</td>
-            <td>3 Months</td>
-            <td>1999/-Rs</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Certificate In Web Designing</td>
-            <td>3 Months</td>
-            <td>1999/-Rs</td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>Certificate In PYTHON</td>
-            <td>3 Months</td>
-            <td>1999/-Rs</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>Certificate In HTML & CSSL</td>
-            <td>3 Months</td>
-            <td>1999/-Rs</td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>Brain Tranning Course :- This couse is Conduct by Guinness World Record holder, international awarded and renowned as Brain S cience Expert Dr. Vinod Sharma</td>
-            <td>3 Months</td>
-            <td>1999/-Rs</td>
+          <tr> 
+             <th>7</th>
+             <th>Git Hub</th>
+             <th>2 DAYS</th>
           </tr>
         </table>
 
         {/*======================= FOURTH PACKAGE DETAILS =======================*/}
 
         <div className="fourth_course_table">
-          <span>Fourth Package Course in 9999/- rupess</span>
-          <span>+</span>
+          <span style={{color: '#fff'}}>PROGRAMMING LANGUAGE</span>
+          <span style={{color: '#fff'}}>+</span>
         </div>
 
 
@@ -295,52 +196,24 @@ const OnlineLearn = () => {
 
         <table className="second_package_table">
           <tr>
-            <td style={{ color: 'black', fontWeight: 'bold' }} >S.No</td>
-            <td style={{ color: 'black', fontWeight: 'bold' }}>Course Name</td>
-            <td style={{ color: 'black', fontWeight: 'bold' }}>Course Duration</td>
-            <td style={{ color: 'black', fontWeight: 'bold' }}>Fees</td>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }} >S.No</th>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Name</th>
+            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Duration</th>
           </tr>
           <tr>
-            <td>1</td>
-            <td>(ADCA) Advance Diploma In Computer Application</td>
-            <td>1 Year</td>
-            <td>2999/-Rs</td>
+             <th>1</th>
+             <th>C/C++</th>
+              <th>25 DAYS</th>
           </tr>
           <tr>
-            <td>2</td>
-            <td>(ADCAP) Advance Diploma In Computer Application & Programming</td>
-            <td>1 Year</td>
-            <td>2999/-Rs</td>
+            <th>2</th>
+            <th>Python</th>
+            <th>25 DAYS</th>
           </tr>
           <tr>
-            <td>3</td>
-            <td>Advance Diploma In Compute Opretor</td>
-            <td>1 Year</td>
-            <td>2999/-Rs</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>Junior Computer Engineer</td>
-            <td>1 Year</td>
-            <td>2999/-Rs</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>Diploma In Web Designing</td>
-            <td>6 Months</td>
-            <td>2999/-Rs</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>BCA Education</td>
-            <td>1 Year (2 sems)</td>
-            <td>2999/-Rs</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>Brain Tranning Course :- This couse is Conduct by Guinness World Record holder, international awarded and renowned as Brain Science Expert Dr. Vinod Sharma</td>
-            <td>6 Months</td>
-            <td>2999/-Rs</td>
+            <th>3</th>
+            <th>JAVA</th>
+            <th>25 DAYS</th>
           </tr>
         </table>
       </div>

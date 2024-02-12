@@ -1,30 +1,58 @@
 import React from 'react'
 import './FlexBoxCard.css'
-import courses from '../img/Home-img/courses.jpg'
 
-const FlexBoxCard = ({num}) => {
-    let arr =[2,3,3,4,4,4,5,6];
+const FlexBoxCard = ( ) => {
+
+    let courses = [
+        {
+            name: 'Front-End Developer',
+            sub: 'HTML5 + CSS + JS Advanced + Bootstrap5 + React-Js + Next-Js + Git/Github',
+            img: 'https://t3.ftcdn.net/jpg/02/92/88/72/360_F_292887204_2wH041phSQo70eqaE9GRqFvn5MmQ4B8w.jpg'
+        },
+        {
+            name: 'Back-end Developer',
+            sub: 'SQL + MySQL + MongoDB + Node-Js + Express-Js + Git/Github',
+            img: 'https://t3.ftcdn.net/jpg/02/92/88/72/360_F_292887204_2wH041phSQo70eqaE9GRqFvn5MmQ4B8w.jpg'
+        },
+        {
+            name: 'Full-Stack Developer',
+            sub: 'HTML5 + CSS + JS-Advanced ES6 + Bootstrap5 + React-Js + Next-Js + Git/Github + SQL + MySQL + MongoDB + Node-Js + Express-Js',
+            img: 'https://t3.ftcdn.net/jpg/02/92/88/72/360_F_292887204_2wH041phSQo70eqaE9GRqFvn5MmQ4B8w.jpg'
+        },
+        {
+            name: 'PHP Developer',
+            sub: 'HTML5 + CSS + JS-Advanced ES6 + Bootstrap5 + React-Js + Next-Js + Git + Github',
+            img: 'https://t3.ftcdn.net/jpg/02/92/88/72/360_F_292887204_2wH041phSQo70eqaE9GRqFvn5MmQ4B8w.jpg'
+        },
+        {
+            name: 'Database Management',
+            sub: 'SQL, MySQL, MongoDB',
+            img: 'https://t3.ftcdn.net/jpg/02/92/88/72/360_F_292887204_2wH041phSQo70eqaE9GRqFvn5MmQ4B8w.jpg'
+        },
+        {
+            name: 'Programming Languages',
+            sub: 'C/C++ + Python + Java',
+            img: 'https://t3.ftcdn.net/jpg/02/92/88/72/360_F_292887204_2wH041phSQo70eqaE9GRqFvn5MmQ4B8w.jpg'
+        },
+    ];
 
     return (
         <>
             <div className="flex-box-card">
                 {
-                    arr.slice(0,num).map((item)=>(
-                        <div className="box">
-                        <div className="image">
-                            <img src={courses} alt='' />
-                            <span>1st Package</span>
+                    courses.map((item) => (
+                        <div class="card">
+                            <img src={item.img} alt="" />
+                            <div class="card__content">
+                                <p class="card__title">{item.name}</p>
+                                <p class="card__description">{item.sub}</p>
+                            </div>
                         </div>
-                        <div className="info">
-                            Course in 999/- ₹ Only<br />
-                            <p>EACH COURSE <span>FOR 45 DAYS</span></p>
-                        </div>
-                    </div>
                     ))
                 }
-               
-               
-               
+
+
+
             </div>
         </>
     )

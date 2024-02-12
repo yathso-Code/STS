@@ -18,8 +18,8 @@ const About = () => {
       {/* =================================== Hero Banner ================================== */}
 
       <div className="herobanner">
-        <img src="https://img.freepik.com/premium-photo/image-young-student-happy-man-library-doing-homework-studying-read-using-laptop-computer_171337-56681.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' 
-        style={{filter: "blur(2px)", filter: " brightness(50%)"}} />
+        <img src="https://img.freepik.com/premium-photo/image-young-student-happy-man-library-doing-homework-studying-read-using-laptop-computer_171337-56681.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt=''
+        style={{ filter: "blur(2px) brightness(50%)" }} />
 
         <div className="heroBanner_text">
           <p>Home <FontAwesomeIcon icon={faAngleRight} /> About us <FontAwesomeIcon icon={faAngleRight} /></p>
@@ -28,6 +28,9 @@ const About = () => {
 
       </div>
       {/* =================================== Hero Banner ================================== */}
+
+      <Lern GetInTouch={GetInTouch} GetInTouch2={GetInTouch2} />
+      <CountingUpPage />
 
       {/* ======================================== Main_Container ========================================*/}
       <div className="main_container">
@@ -86,7 +89,7 @@ const About = () => {
             </p>
 
             <div className="cir_box_container">
-            <div className="circle_img"><img src="https://img.freepik.com/free-photo/one-young-adult-posing-with-futuristic-eyeglasses-generated-by-ai_188544-19658.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
+              <div className="circle_img"><img src="https://img.freepik.com/free-photo/one-young-adult-posing-with-futuristic-eyeglasses-generated-by-ai_188544-19658.jpg?size=626&ext=jpg&ga=GA1.1.865498950.1686581242&semt=ais" alt='' /></div>
               <div className="cir_text">
                 <h1>Sharad Kumar</h1>
                 <h5>Web developer</h5>
@@ -152,9 +155,9 @@ const About = () => {
 
 
 
-      < Lern GetInTouch={GetInTouch} GetInTouch2={GetInTouch2} />
-      <CountingUpPage />
-      <EnrollPage InfoTitle={'We are STS Education an online learning center'} Information={'We can manage your dream building A small river named Duden flows by their place'}  BUTTON={''}/>
+      
+      
+      <EnrollPage InfoTitle={'We are STS Education an online learning center'} Information={'We can manage your dream building A small river named Duden flows by their place'} BUTTON={''} />
     </>
   )
 }
