@@ -24,7 +24,7 @@
 .Counters .overlay {
     position: absolute;
     height: auto;
-    background: linear-gradient(45deg, #CB4BE8, #4970E5);
+    background: linear-gradient(90deg, rgba(58,171,180,1) 0%, rgba(209,137,195,1) 50%, rgba(69,252,222,1) 100%);
     opacity: 0.8;
     left: 0;
     top: 0;

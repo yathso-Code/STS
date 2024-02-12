@@ -1,6 +1,7 @@
 nav {
     position: relative;
-    background: linear-gradient(45deg, #CB4BE8, #4970E5);
+    background: rgb(58,171,180);
+    background: linear-gradient(90deg, rgba(58,171,180,1) 0%, rgba(209,137,195,1) 50%, rgba(69,252,222,1) 100%);
     width: 100vw;
     height: 60px;
     display: flex;
@@ -15,7 +16,7 @@ nav {
     top: 0;
     left: 0;
     position: fixed;
-    background: linear-gradient(45deg, #CB4BE8, #4970E5);
+    background: linear-gradient(90deg, rgba(58,171,180,1) 0%, rgba(209,137,195,1) 50%, rgba(69,252,222,1) 100%);
     color: rgb(248, 246, 246);
     animation: Fixed .8s;
 }
@@ -70,7 +71,7 @@ nav .links a {
 
 
 nav .links .active {
-    color: #02ffb3;
+    color: #c002ff;
 }
 
 #chk-box {
