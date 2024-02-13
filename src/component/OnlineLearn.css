@@ -68,7 +68,7 @@ h1 {
 }
 
 .package .package_detail {
-    width: 400px;
+    width: 550px;
     /* border: 2px solid green; */
     /* margin-left: 12vw; */
 }
@@ -106,7 +106,7 @@ h1 {
 =======================================================================================*/
 .package_price {
     /* border: 2px solid yellowgreen; */
-    width: 380px;
+    width: 600px;
     height: auto;
     display: flex;
     /* justify-content: space-evenly; */
@@ -233,16 +233,12 @@ background: linear-gradient(180deg, rgba(56,177,172,.3) 0%, rgba(200,135,181,.3)
                            SECOND PACKAGE COURSE DETAILS
 =================================================================================*/
 .linear_gradient .second_course_table {
-    background-color: rgb(221, 64, 166);
+    background: rgb(84, 166, 168);
     border: 1px solid rgb(123, 253, 2);
     width: 100%;
     height: 10vh;
-    padding-top: 1.4vw;
+    padding-top: 1.5%;
     padding-left: 2%;
-}
-
-.linear_gradient .second_course_table:hover {
-    background-color: rgb(140, 27, 232);
 }
 
 .linear_gradient .second_course_table span:nth-child(1) {
@@ -251,9 +247,9 @@ background: linear-gradient(180deg, rgba(56,177,172,.3) 0%, rgba(200,135,181,.3)
 }
 
 .linear_gradient .second_course_table span:nth-child(2) {
-    margin-left: 43%;
-    color: white;
-    font-size: 1.7vw;
+    margin-left: 60%;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
     font-weight: bolder;
 }
 
@@ -270,23 +266,20 @@ background: linear-gradient(180deg, rgba(56,177,172,.3) 0%, rgba(200,135,181,.3)
 table tr th {
     border-bottom: 1pt solid rgb(255, 255, 255);
     text-wrap: wrap;
+   
 }
 
 /* =====================================================================================
                    THIRD PACKAGE COURSE DETAILS
 ========================================================================================*/
 .linear_gradient .third_course_table {
-    background-color: rgb(221, 64, 166);
+    background: rgb(84, 166, 168);
     border: 1px solid rgb(123, 253, 2);
     width: 100%;
     height: 10vh;
     margin-top: 10%;
-    padding-top: 1.4vw;
+    padding-top: 1.5%;
     padding-left: 2%;
-}
-
-.linear_gradient .third_course_table:hover {
-    background-color: rgb(140, 27, 232);
 }
 
 .linear_gradient .third_course_table span:nth-child(1) {
@@ -295,9 +288,9 @@ table tr th {
 }
 
 .linear_gradient .third_course_table span:nth-child(2) {
-    margin-left: 43%;
-    color: white;
-    font-size: 1.7vw;
+    margin-left: 60%;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
     font-weight: bolder;
 }
 
@@ -312,17 +305,13 @@ table tr th {
                    FOURTH PACKAGE COURSE DETAILS
 ========================================================================================*/
 .linear_gradient .fourth_course_table {
-    background-color: rgb(221, 64, 166);
+     background: rgb(84, 166, 168);
     border: 1px solid rgb(123, 253, 2);
     width: 100%;
     height: 10vh;
     margin-top: 10%;
-    padding-top: 1.4vw;
+    padding-top: 1.5%;
     padding-left: 2%;
-}
-
-.linear_gradient .fourth_course_table:hover {
-    background-color: rgb(140, 27, 232);
 }
 
 .linear_gradient .fourth_course_table span:nth-child(1) {
@@ -331,9 +320,9 @@ table tr th {
 }
 
 .linear_gradient .fourth_course_table span:nth-child(2) {
-    margin-left: 43%;
-    color: white;
-    font-size: 1.7vw;
+    margin-left: 55%;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
     font-weight: bolder;
 }
 
@@ -351,6 +340,44 @@ table tr th {
     line-height: 3vw;
 }
 
+
+/* =====================================================================================
+                   FIFTH PACKAGE COURSE DETAILS
+========================================================================================*/
+.linear_gradient .fifth_course_table {
+    background: rgb(84, 166, 168);
+    border: 1px solid rgb(123, 253, 2);
+    width: 100%;
+    height: 10vh;
+    margin-top: 10%;
+    padding-top: 1em;
+    padding-left: 2%;
+}
+.linear_gradient .fifth_course_table span:nth-child(1) {
+    font-size: 1.7vw;
+    font-weight: bolder;
+}
+
+.linear_gradient .fifth_course_table span:nth-child(2) {
+    margin-left: 73%;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.fifth_package_table {
+    color: white;
+    width: 100%;
+    margin-top: 2%;
+    line-height: 3vw;
+}
+
+.fifth_package_table {
+    color: white;
+    width: 100%;
+    margin-top: 2%;
+    line-height: 3vw;
+}
 /* =========================================================================================
                                POSITION BOXES
 ===========================================================================================*/
@@ -472,6 +499,7 @@ table tr th {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
+    margin-top: 2%;
     padding: 0em 3em 4em 3em;
     display: flex;
     align-items: center;
@@ -483,11 +511,11 @@ table tr th {
                              CONTENT BOX 1
 =====================================================================================*/
 .content_box .flex_box1 {
-    background-image: url("https://img.freepik.com/free-photo/collage-finance-banner-concept_23-2150608820.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705881600&semt=ais");
+    background-image: url("https://cdn.sanity.io/images/tlr8oxjg/production/5c3120359be5c4f225cd7b817811217041b759ab-1192x668.png?w=3840&q=80&fit=clip&auto=format");
     width: 350px;
     height: 510px;
-    display: block;
-    border-radius: 0px;
+    background-size: contain;
+    /* display: block; */
     box-shadow: 5px 5px 29px #898989,
         -5px -5px 29px #ffffff;
 }
@@ -495,6 +523,7 @@ table tr th {
 .flex_box1 .content {
     background-color: #ffffff;
     height: 280px;
+    font-weight: bold;
     margin-top: 230px;
     line-height: 1.5em;
 }
@@ -518,7 +547,7 @@ table tr th {
 
 .flex_box1 p:nth-child(3) {
     margin-top: 20px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     color: rgb(129, 124, 124);
     font-size: .9em;
 }
@@ -527,16 +556,18 @@ table tr th {
                              CONTENT BOX 2
 =====================================================================================*/
 .content_box .flex_box2 {
-    background-image: url("https://img.freepik.com/free-photo/collage-finance-banner-concept_23-2150608820.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705881600&semt=ais");
+    background-image: url("https://img.freepik.com/free-photo/it-specialist-checking-code-computer-dark-office-night_1098-18699.jpg?w=996&t=st=1707807014~exp=1707807614~hmac=66a96125d735087e4587acfd93cf34f2eeb45d81540c55dc8e12548a1691a717");
     width: 350px;
     height: 510px;
+    background-size: contain;
     box-shadow: 5px 5px 29px #898989,
         -5px -5px 29px #ffffff;
 }
 
 .flex_box2 .content {
     background-color: #ffffff;
-    height: 320px;
+    font-weight: bold;
+    height: 280px;
     margin-top: 230px;
     line-height: 1.5em;
 }
@@ -555,6 +586,7 @@ table tr th {
     margin-left: 15px;
     font-size: 1.5em;
     font-weight: 600;
+
 }
 
 .flex_box2 p:nth-child(3) {
@@ -562,16 +594,16 @@ table tr th {
     margin-left: 15px;
     color: rgb(129, 124, 124);
     font-size: .9em;
-    line-height: 1.5em;
 }
 
 /*===================================================================================
                              CONTENT BOX 3
 =====================================================================================*/
 .content_box .flex_box3 {
-    background-image: url("https://img.freepik.com/free-photo/collage-finance-banner-concept_23-2150608820.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705881600&semt=ais");
+    background-image: url("https://img.freepik.com/free-photo/player-using-vr-glasses-win-video-games-computer-man-with-controller-virtual-reality-headset-playing-game-have-fun-with-modern-activity-gamer-winning-online-competition_482257-39554.jpg?w=996&t=st=1707807061~exp=1707807661~hmac=3ba909bdb3ba3411abbf9d4818f380cfc6ea282da258ef99649a4b5589493358");
     width: 350px;
     height: 510px;
+    background-size: contain;
     box-shadow: 5px 5px 29px #898989,
         -5px -5px 29px #ffffff;
 }
@@ -580,6 +612,7 @@ table tr th {
     background-color: #ffffff;
     height: 280px;
     margin-top: 230px;
+    font-weight: bold;
     line-height: 1.5em;
 }
 
@@ -606,6 +639,15 @@ table tr th {
     color: rgb(129, 124, 124);
     font-size: .9em;
 }
+
+
+
+
+
+
+
+
+
 
 /*=============== MEDIA - QUERY ===============*/
 
@@ -818,6 +860,7 @@ table tr th {
 
     .flex_box1 .content {
         height: 320px;
+        padding-left: 10px;
     }
 
     .content_box .flex_box2 {
@@ -839,7 +882,7 @@ table tr th {
     }
 
     .heading_box {
-        text-align: center;
+        /* text-align: center; */
     }
 
     .content_box .flex_box1 {
@@ -862,25 +905,38 @@ table tr th {
     }
 }
 
+
+
+
+
 /* ==================================================================
                         tab screen size
 =====================================================================*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
 
     /* =======================
                               HERO BANNER ===========================*/
 
-    .hero_text1 {
-        font-size: 2.3vh;
-    }
+    .first_text{
 
-    .hero_text2 {
-        font-size: 2.3vh;
+        width: 100vw;
+        height: 20vh;
+    }
+    .hero_banner .first_text .i {
+        margin-right: 24%;
+        font-size: 2em;
+    }
+    .hero_banner .first_text .hero{
+        font-size: 2em;
+        margin-left: 20%;
     }
 
     .last_text {
-        font-size: 7vw;
+        text-align: center;
+        font-size: 8vw;
     }
+
+    
 
     /* ============================================================
                              PACKAGE 
@@ -888,7 +944,7 @@ table tr th {
 
     .package_detail {
         /* border: 1px solid red; */
-        width: 350px;
+        width: 400px;
     }
     .package_detail .image {
         flex-direction: column;
@@ -960,24 +1016,40 @@ table tr th {
         font-size: 2.5VW;
         text-align: center;
     }
+            /* ==============================================================================
+                           SECOND PACKAGE COURSE DETAILS
+=================================================================================*/
+.linear_gradient .second_course_table {
+    height: 9vh;
+    padding-top: 1em;
+    padding-left: 2%;
+}
 
-    /* ==============================================================================
+.linear_gradient .second_course_table span:nth-child(1) {
+    font-size: 1.8em;
+}
+
+.linear_gradient .second_course_table span:nth-child(2) {
+    font-size: 2.5em;
+    margin-left: 39%;
+}
+            /* ==============================================================================
                            THIRD PACKAGE COURSE DETAILS
 =================================================================================*/
-    .linear_gradient .third_course_table {
-        height: 8vh;
-        padding-top: 3.7vw;
-        padding-left: 2%;
-    }
+.linear_gradient .third_course_table {
+    height: 9vh;
+    padding-top: .6em;
+    padding-left: 2%;
+}
 
-    .linear_gradient .third_course_table span:nth-child(1) {
-        font-size: 3vw;
-    }
+.linear_gradient .third_course_table span:nth-child(1) {
+    font-size: 1.5em;
+}
 
-    .linear_gradient .third_course_table span:nth-child(2) {
-        font-size: 3vw;
-        margin-left: 30%;
-    }
+.linear_gradient .third_course_table span:nth-child(2) {
+    font-size: 2.5em;
+    margin-left: 50%;
+}
 
     /* =====================================================================================
                    THIRD PACKAGE TABLE
@@ -995,17 +1067,17 @@ table tr th {
 =================================================================================*/
     .linear_gradient .fourth_course_table {
         height: 8vh;
-        padding-top: 3.7vw;
+        padding-top: .8em;
         padding-left: 2%;
     }
 
     .linear_gradient .fourth_course_table span:nth-child(1) {
-        font-size: 3vw;
+        font-size: 1.5em;
     }
 
     .linear_gradient .fourth_course_table span:nth-child(2) {
-        font-size: 3vw;
-        margin-left: 30%;
+        font-size: 2em;
+        margin-left: 44%;
     }
 
     /* =====================================================================================
@@ -1019,6 +1091,23 @@ table tr th {
         font-size: 2.5VW;
     }
 
+        /* ==============================================================================
+                           fifth PACKAGE COURSE DETAILS
+=================================================================================*/
+.linear_gradient .fifth_course_table {
+    height: 9vh;
+    padding-top: .8em;
+    padding-left: 2%;
+}
+
+.linear_gradient .fifth_course_table span:nth-child(1) {
+    font-size: 1.8em;
+}
+
+.linear_gradient .fifth_course_table span:nth-child(2) {
+    font-size: 2.5em;
+    margin-left: 58%;
+}
     /* =========================================================================================
                                POSITION BOXES
 ===========================================================================================*/
@@ -1057,22 +1146,35 @@ table tr th {
         font-size: 1.5vh;
     }
 
-    .content_box .flex_box1 {
-        margin-bottom: 15%;
-        width: 350px;
-        height: 100%;
+
+    .content_box{
+        margin-left: -5%;
+    }
+    .heading_box .heading1{
+        font-size: 1.8em;
+        font-weight: 600;
+    }
+    .heading_box .heading2{
+        font-size: 3.8em;
+        font-weight: 600;
+    }
+    .content_box .flex_box1  {
+        /* border: 5px solid red; */
+        margin-bottom: 1%;
+        width: 70vw;
+        height: auto;
     }
 
     .content_box .flex_box2 {
-        margin-bottom: 5%;
-        width: 350px;
-        height: 100%;
+        margin-bottom: 1%;
+        width: 70vw;
+        height: auto;
     }
 
     .content_box .flex_box3 {
-        margin-bottom: 5%;
-        width: 350px;
-        height: 100%;
+
+        width: 70vw;
+        height: auto;
     }
 }
 
@@ -1084,19 +1186,25 @@ table tr th {
     /* ==============================================================
                               HERO BANNER
     ==================================================================*/
-
-    .hero_text1 {
-        font-size: 1.8vh;
+    .first_text{
+        /* background-color: black; */
+        width: 90vw;
+        height: 20vh;
+        
     }
-
-    .hero_text2 {
-        font-size: 1.8vh;
+    .hero_banner .first_text .i {
+        margin-right: 12%;
+        font-size: 1.2em;
     }
+    .hero_banner .first_text .hero{
+        font-size: 1.2em;
+        margin-left: 18%;
+    }
+   
 
     .last_text {
-        font-size: 8vw;
-        display: block;
-        margin-left: 23vw;
+        font-size: 10vw;
+        margin-left: 1%;
     }
 
     .last_text span {
@@ -1112,11 +1220,11 @@ table tr th {
         /* height: 100vh; */
     }
 
-
     .package_detail h5 {
-        font-size: 1.5vh;
+        font-size: 1.9vh;
         margin-top: 5vh;
         width: 50vw;
+        margin-left: 8%;
     }
 
     .package_detail h3 {
@@ -1124,11 +1232,283 @@ table tr th {
         font-weight: bold;
         line-height: 8vw;
         width: 91vw;
+        margin-left: 8%;
+    }
+
+    .package_detail p {
+        width: 79vw;
+        font-size: 1.7vh;
+        margin-left: 8%;
+    }
+
+    .package img {
+        width: 48vw;
+        height: 16vh;
+        display: flex;
+    }
+
+    /* ==================================================================
+                     PACKAGE PRICE
+===================================================================== */
+
+    .package_price .first_package {
+
+        line-height: 4.5vh;
+    }
+
+    .package_price .second_package {
+        line-height: 4.5vh;
+    }
+
+    .package_price .third_package {
+        margin-top: 1vh;
+        line-height: 4.5vh;
+    }
+
+    /* ==============================================================================
+                           SECOND PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .second_course_table {
+        height: 6vh;
+        padding-top: .5em;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .second_course_table span:nth-child(1) {
+        font-size: .7em;
+    }
+
+    .linear_gradient .second_course_table span:nth-child(2) {
+        font-size: 1.2em;
+        margin-left: 50%;
+    }
+
+    /* =====================================================================================
+                   SECOND PACKAGE TABLE
+========================================================================================*/
+    .second_package_table {
+        color: white;
+        width: 100%;
+        margin-top: 2%;
+        line-height: 9vw;
+        font-size: 3.6VW;
+    }
+
+    /* ==============================================================================
+                           THIRD PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .third_course_table {
+        height: 6vh;
+        padding-top: .5em;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .third_course_table span:nth-child(1) {
+        font-size: .7em;
+    }
+
+    .linear_gradient .third_course_table span:nth-child(2) {
+        font-size: 1.2em;
+        margin-left: 53%;
+    }
+
+    /* =====================================================================================
+                   THIRD PACKAGE TABLE
+========================================================================================*/
+
+
+    /* ==============================================================================
+                           FOURTH PACKAGE COURSE DETAILS
+=================================================================================*/
+    .linear_gradient .fourth_course_table {
+        height: 6vh;
+        padding-top: .3em;
+        padding-left: 2%;
+    }
+
+    .linear_gradient .fourth_course_table span:nth-child(1) {
+        font-size: .7em;
+    }
+
+    .linear_gradient .fourth_course_table span:nth-child(2) {
+        font-size: 1.2em;
+        margin-left: 41%;
+    }
+
+    /* =====================================================================================
+                   FOURTH PACKAGE TABLE
+========================================================================================*/
+
+    /* ==============================================================================
+                           fifth PACKAGE COURSE DETAILS
+=================================================================================*/
+.linear_gradient .fifth_course_table {
+    height: 6vh;
+    padding-top: .4em;
+    padding-left: 2%;
+}
+
+.linear_gradient .fifth_course_table span:nth-child(1) {
+    font-size: .7em;
+}
+
+.linear_gradient .fifth_course_table span:nth-child(2) {
+    font-size: 1.2em;
+    margin-left: 63%;
+}
+
+/* =====================================================================================
+               FIFTH PACKAGE TABLE
+========================================================================================*/
+
+/* =========================================================================================
+                               POSITION BOXES
+===========================================================================================*/
+    .image_box1 {
+        display: block;
+        width: 60%;
+        height: 40%;
+        position: absolute;
+        left: 3%;
+        top: 5%;
+    }
+
+    .image_box2 {
+        width: 59%;
+        height: 30%;
+        position: absolute;
+        left: 38%;
+        top: 24%;
+    }
+
+    /* ========================pick your course ========================== */
+    .heading_box{
+        margin-top: -15%;
+    }
+    .heading_box .heading1{
+        font-size: 1em;
+    }
+    .heading_box .heading2{
+        font-size: 2em;
+    }
+    .content_box .flex_box1{
+        margin-left: 13%;
+        width: 100vw;
+    }
+    .content_box .flex_box1 .content{
+        /* background-color: cyan; */
+        width: 90vw;
+    }
+    .content_box .flex_box2{
+        margin-left: 13%;
+        width: 100vw;
+    }
+    .content_box .flex_box2 .content{
+        /* background-color: cyan; */
+        width: 90vw;
+    }
+    .content_box .flex_box3{
+        margin-left: 13%;
+        width: 100vw;
+    }
+    .content_box .flex_box3 .content{
+        /* background-color: cyan; */
+        width: 90vw;
+    }
+
+    /* =========================================================================================
+                                POSITION HIDDEN BOXES TEXT
+===========================================================================================*/
+    .position_hidden_box_text {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 7%;
+        top: 60%;
+        list-style: inside;
+    }
+
+    .position_hidden_box_text p {
+        font-size: 3vw;
+    }
+
+    .position_hidden_box_text h2 {
+        font-size: 5.7vw;
+    }
+
+    .position_hidden_box_text ul {
+        line-height: 5.8vw;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+/* ==================================================================
+                        mobile screeen size
+====================================================================*/
+@media only screen and (max-width: 320px) {
+
+    /* ==============================================================
+                              HERO BANNER
+    ==================================================================*/
+    .first_text{
+        /* background-color: black; */
+        width: 90vw;
+        height: 20vh;
+        
+    }
+    .hero_banner .first_text .i {
+        margin-right: 10%;
+        font-size: 1em;
+    }
+    .hero_banner .first_text .hero{
+        font-size: 1em;
+        margin-left: 20%;
+    }
+   
+
+    .last_text {
+        font-size: 8vw;
+        margin-left: 1%;
+    }
+
+    .last_text span {
+        margin-left: 8vw;
+        margin-bottom: 15vh;
+    }
+
+    /* ================================================================
+                                  PACKAGE
+        =================================================================== */
+    .linear_gradient {
+        width: 100%;
+        /* height: 100vh; */
+    }
+
+    .package_detail h5 {
+        font-size: 1.9vh;
+        margin-top: 5vh;
+        width: 50vw;
+        margin-left: 8%;
+    }
+
+    .package_detail h3 {
+        font-size: 6.6vw;
+        font-weight: bold;
+        line-height: 8vw;
+        width: 91vw;
+        margin-left: 8%;
     }
 
     .package_detail p {
         width: 79vw;
         font-size: 1.5vh;
+        margin-left: 8%;
     }
 
     .package img {
@@ -1160,17 +1540,17 @@ table tr th {
 =================================================================================*/
     .linear_gradient .second_course_table {
         height: 9vh;
-        padding-top: 5vw;
+        padding-top: .5em;
         padding-left: 2%;
     }
 
     .linear_gradient .second_course_table span:nth-child(1) {
-        font-size: 3.9vw;
+        font-size: .8em;
     }
 
     .linear_gradient .second_course_table span:nth-child(2) {
-        font-size: 3.9vw;
-        margin-left: 10%;
+        font-size: 1.2em;
+        margin-left: 32%;
     }
 
     /* =====================================================================================
@@ -1189,60 +1569,69 @@ table tr th {
 =================================================================================*/
     .linear_gradient .third_course_table {
         height: 9vh;
-        padding-top: 5vw;
+        padding-top: .5em;
         padding-left: 2%;
     }
 
     .linear_gradient .third_course_table span:nth-child(1) {
-        font-size: 3.9vw;
+        font-size: .8em;
     }
 
     .linear_gradient .third_course_table span:nth-child(2) {
-        font-size: 3.9vw;
-        margin-left: 10%;
+        font-size: 1.2em;
+        margin-left: 35%;
     }
 
     /* =====================================================================================
                    THIRD PACKAGE TABLE
 ========================================================================================*/
-    .third_package_table {
-        color: white;
-        width: 100%;
-        margin-top: 2%;
-        line-height: 9vw;
-        font-size: 3.6VW;
-    }
+
 
     /* ==============================================================================
                            FOURTH PACKAGE COURSE DETAILS
 =================================================================================*/
     .linear_gradient .fourth_course_table {
         height: 9vh;
-        padding-top: 5vw;
+        padding-top: .6em;
         padding-left: 2%;
     }
 
     .linear_gradient .fourth_course_table span:nth-child(1) {
-        font-size: 3.9vw;
+        font-size: .8em;
     }
 
     .linear_gradient .fourth_course_table span:nth-child(2) {
-        font-size: 3.9vw;
-        margin-left: 10%;
+        font-size: 1.2em;
+        margin-left: 27%;
     }
 
     /* =====================================================================================
                    FOURTH PACKAGE TABLE
 ========================================================================================*/
-    .third_package_table {
-        color: white;
-        width: 100%;
-        margin-top: 2%;
-        line-height: 9vw;
-        font-size: 3.6VW;
-    }
 
-    /* =========================================================================================
+    /* ==============================================================================
+                           fifth PACKAGE COURSE DETAILS
+=================================================================================*/
+.linear_gradient .fifth_course_table {
+    height: 9vh;
+    padding-top: .4em;
+    padding-left: 2%;
+}
+
+.linear_gradient .fifth_course_table span:nth-child(1) {
+    font-size: .8em;
+}
+
+.linear_gradient .fifth_course_table span:nth-child(2) {
+    font-size: 1.2em;
+    margin-left: 53%;
+}
+
+/* =====================================================================================
+               FIFTH PACKAGE TABLE
+========================================================================================*/
+
+/* =========================================================================================
                                POSITION BOXES
 ===========================================================================================*/
     .image_box1 {
@@ -1260,6 +1649,41 @@ table tr th {
         position: absolute;
         left: 38%;
         top: 24%;
+    }
+
+    /* ========================pick your course ========================== */
+    .heading_box{
+        margin-top: -15%;
+    }
+    .heading_box .heading1{
+        font-size: 1em;
+    }
+    .heading_box .heading2{
+        font-size: 2em;
+    }
+    .content_box .flex_box1{
+        margin-left: 13%;
+        width: 100vw;
+    }
+    .content_box .flex_box1 .content{
+        /* background-color: cyan; */
+        width: 90vw;
+    }
+    .content_box .flex_box2{
+        margin-left: 13%;
+        width: 100vw;
+    }
+    .content_box .flex_box2 .content{
+        /* background-color: cyan; */
+        width: 90vw;
+    }
+    .content_box .flex_box3{
+        margin-left: 13%;
+        width: 100vw;
+    }
+    .content_box .flex_box3 .content{
+        /* background-color: cyan; */
+        width: 90vw;
     }
 
     /* =========================================================================================

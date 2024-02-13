@@ -67,17 +67,18 @@ const OnlineLearn = () => {
 
       <div className="linear_gradient">
         <div className="second_course_table">
-          <span style={{color: '#fff'}}>FRONT-END DEVELOPER</span>
-          <span style={{color: '#fff'}}>+</span>
+          <span>FRONT-END DEVELOPER</span>
+          <span>+</span>
         </div>
 
         {/*===============================   SECOND PACKAGE TABLE  ===============================*/}
 
         <table className="second_package_table">
           <tr>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }} >S.No</th>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Name</th>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Duration</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }} >S.No</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }}>Course Name</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }}>Course Duration</th>
+       
           </tr>
           <tr>
           <th>1</th>
@@ -91,7 +92,7 @@ const OnlineLearn = () => {
           </tr>
           <tr>
           <th>3</th>
-            <th>javaScript ES6</th>
+            <th>JavaScript ES6</th>
             <th>30 DAYS</th>
           </tr>
           <tr>
@@ -106,18 +107,24 @@ const OnlineLearn = () => {
           </tr>
           <tr>
           <th>7</th>
-            <th>Next jS</th>
+            <th>React</th>
             <th>15 DAYS</th>
           </tr>
           <tr>
           <th>8</th>
-            <th>React JS</th>
+            <th>Next JS</th>
             <th>3 DAYS</th>
           </tr>
           <tr>
           <th>9</th>
-            <th>Git / Github</th>
+            <th>Git</th>
             <th>4 DAYS</th>
+          </tr>
+          <tr>
+            <th>10</th>
+            <th>Git Hub</th>
+            <th>2 Days</th>
+
           </tr>
          
         </table>
@@ -125,8 +132,9 @@ const OnlineLearn = () => {
         {/*===============================  THIRD COURSE DURATION  ===============================*/}
 
         <div className="third_course_table">
-          <span style={{color: '#fff'}}>BACK-END DEVELOPER</span>
-          <span style={{color: '#fff'}}>+</span>
+
+          <span>BACK-END DEVELOPER</span>
+          <span>+</span>
         </div>
 
         {/*===============================   ===============================*/}
@@ -136,9 +144,11 @@ const OnlineLearn = () => {
 
         <table className="third_package_table">
           <tr>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }} >S.No</th>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Subject</th>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Duration</th>
+
+            <th style={{ color: 'cyan', fontWeight: 'bold' }} >S.No</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }}>Subject</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }}>Course Duration</th>
+
           </tr>
           <tr>
              <th>1</th>
@@ -168,6 +178,22 @@ const OnlineLearn = () => {
              <th>Express.Js</th>
              <th>4 DAYS</th>
           </tr>
+          <tr> 
+             <th>6</th>
+             <th>Php</th>
+             <th>15 DAYS</th>
+          </tr>
+          <tr>
+            <th>7</th>
+            <th>Git</th>
+            <th>2 DAYS</th>
+          </tr>
+          <tr> 
+             <th>8</th>
+             <th>Git Hub</th>
+             <th>2 DAYS</th>
+
+          </tr>
           <tr>
             <th>6</th>
             <th>Git / Github</th>
@@ -183,18 +209,20 @@ const OnlineLearn = () => {
         {/*======================= FOURTH PACKAGE DETAILS =======================*/}
 
         <div className="fourth_course_table">
-          <span style={{color: '#fff'}}>PROGRAMMING LANGUAGE</span>
-          <span style={{color: '#fff'}}>+</span>
-        </div>
+
+          <span>PROGRAMMING LANGUAGE</span>
+          <span>+</span>
+       </div>
 
 
         {/*============================ FOURTH PACKAGE TABLE ============================*/}
 
         <table className="second_package_table">
           <tr>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }} >S.No</th>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Name</th>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Duration</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }} >S.No</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }}>Course Name</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }}>Course Duration</th>
+
           </tr>
           <tr>
              <th>1</th>
@@ -210,50 +238,56 @@ const OnlineLearn = () => {
             <th>3</th>
             <th>JAVA</th>
             <th>25 DAYS</th>
+
+          </tr>
+        </table>
+
+        {/*======================= fifth PACKAGE DETAILS =======================*/}
+
+        <div className="fifth_course_table">
+          <span>OTHER COURSE</span>
+          <span>+</span>
+        </div>
+
+
+        {/*============================ FIFTH PACKAGE TABLE ============================*/}
+
+        <table className="second_package_table">
+          <tr>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }} >S.No</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }}>Course Name</th>
+            <th style={{ color: 'cyan', fontWeight: 'bold' }}>Course Duration</th>
+          </tr>
+          <tr>
+             <th>1</th>
+             <th>Microsoft Office</th>
+              <th>45 DAYS</th>
+          </tr>
+          <tr>
+            <th>2</th>
+            <th>O_Level</th>
+            <th>1 YEAR</th>
+          </tr>
+          <tr>
+            <th>3</th>
+            <th>DCA</th>
+            <th>6 MONTHS</th>
+          </tr>
+          <tr>
+            <th>4</th>
+            <th>Tally</th>
+            <th>3 MONTHS</th>
+          </tr>
+          <tr>
+            <th>5</th>
+            <th>ADCA</th>
+            <th>1 YEAR</th>
+{/* ======= */}
           </tr>
           <tr>
           <th>4</th>
           <th>PHP+ SQl</th>
           <th>45 DAYS</th>
-        </tr>
-        </table>
-
-         
-        <div className="fourth_course_table">
-        <span style={{color: '#fff'}}>OTHER ..</span>
-        <span style={{color: '#fff'}}>+</span>
-      </div>
-
-        <table className="second_package_table">
-          <tr>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }} >S.No</th>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Name</th>
-            <th style={{ color: '#fff', fontSize: '20px' , fontWeight: 'bold' }}>Course Duration</th>
-          </tr>
-          <tr>
-             <th>1</th>
-             <th>O-Level</th>
-              <th>1 year</th>
-          </tr>
-          <tr>
-            <th>2</th>
-            <th>DCA</th>
-            <th>6 month</th>
-          </tr>
-          <tr>
-            <th>3</th>
-            <th>Tally</th>
-            <th>3 month</th>
-          </tr>
-          <tr>
-            <th>4</th>
-            <th>ADCA</th>
-            <th>1 year</th>
-          </tr>
-          <tr>
-          <th>5</th>
-          <th>Microsoft Offuce</th>
-          <th>45 Day</th>
         </tr>
         </table>
       </div>
@@ -293,7 +327,7 @@ const OnlineLearn = () => {
                 - VISUAL LEARNING<br />
                 - VEDIO ACCESS ONLY STUDENT USER ID<br />
                 - VEDIO ACCESS IN MOBILE , TABLET ,P.C OR LAPTOP.<br />
-                - STUDENT SEE VEDIO ANY TIME AND ANY WHERE.</p>
+               </p>
             </div>
           </div>
 
