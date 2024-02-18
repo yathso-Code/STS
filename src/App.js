@@ -8,6 +8,7 @@ import About from './component/About';
 import Contact from './component/Contact';
 import Course from './component/Course';
 import OnlineLearn from './component/OnlineLearn';
+import SinglePage from './component/reuse/SinglePage'
 import {createContext} from 'react'
 import Error from './component/Error';
 
@@ -71,6 +72,7 @@ function App() {
         <Route path="/course" element={ <Course /> } />
         <Route path="/contact" element={ <Contact /> } />
         <Route path="/onlineLearn" element={ <OnlineLearn /> } />
+        <Route path="/singlePage" element={ <SinglePage /> } />
         <Route path="*" element={ <Error /> } />
       </Routes>
       <Footer />

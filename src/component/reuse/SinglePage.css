@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*====== Hero-Banner-Starts ======*/
+
+.Hero {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding: 20px 100px;
+    color: #fff;
+}
+
+.Hero .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Hero .overlay img {
+    width: 100%;
+    height: 100%;
+}
+
+.Hero .text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Hero .text h6 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.Hero .text h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Hero .text h5 {
+    font-size: 18px;
+}
+.Hero .text h6 .i {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .Hero {
+        padding: 20px 50px;
+    }
+    .Hero .text {
+        /* border: 1px solid green; */
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Hero {
+        padding: 20px 10px;
+    }
+    .Hero .text h6 {
+        font-size: 12px;
+    }
+    .Hero .text h2 {
+        font-size: 20px;
+    }
+    .Hero .text h5 {
+        font-size: 14px;
+    }
+}
+
+/*======= Hero-Banner-Ends =======*/
+
+
+/*======= Topics-Ends =======*/
+
+.topicsParent {
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+    padding: 50px 100px;
+}
+.topicsParent h2 {
+    margin-bottom: 20px;
+}
+
+.topicsParent .topics {
+    width: 70%;
+    height: auto;
+    border: 2px dashed grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+.topicsParent .topics div {
+    flex: 1;
+}
+
+.topicsParent .topics .Box {
+    /* border: 1px solid olive; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topicsParent .topics .Box p{
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .topicsParent {
+        padding: 20px 50px;
+    }
+    .topicsParent h2 {
+        text-align: center;
+    }
+    .topicsParent .topics {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+.topicsParent .topics {
+    flex-direction: column;
+    gap: 20px;
+}
+}
+
+/*======= Topics-Ends =======*/
+
+
+/*======== Course - Includes ========*/
+
+.IncludeParent {
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+    padding: 30px 100px;
+}
+
+.IncludeParent .Include  {
+    border: 2px dashed grey;
+    width: 25%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+
+.IncludeParent .Include  p{
+    display: flex;
+    gap: 10px;
+}
+.IncludeParent .Include h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .IncludeParent {
+        padding: 20px 50px;
+    }
+    .IncludeParent .Include {
+        width: 100%;
+    }
+}
+
+/*======== Course - Includes ========*/
+
+
+.DescParent {
+    width: 100vw;
+    height: auto;
+    background-color: #fff;
+    padding: 30px 100px;
+}
+
+.DescParent .Description  {
+    border: 2px dashed grey;
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.DescParent .Description h4{
+    font-weight: lighter;
+}
+.DescParent .Description p .i{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .DescParent {
+        padding: 20px 50px;
+    }
+    .DescParent .Description {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .DescParent .Description{
+        padding: 10px;
+    }
+    .DescParent .Description h4{
+        font-size: 15px;
+    }
+}
